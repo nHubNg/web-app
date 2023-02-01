@@ -155,7 +155,7 @@ const Home = () => {
               <Testimonials
                 content={
                   <React.Fragment>
-                    <b>ROXY</b> is best theme i used so far.
+                    <b>NHUB</b> is best theme is used so far.
                     <br /> Its ideal for guys without coding knowledge like me!{' '}
                   </React.Fragment>
                 }
@@ -167,13 +167,10 @@ const Home = () => {
             <img src={bgWhite} id="whiteBG" alt="" />
             <Carousel.Caption id="testi-text">
               <Testimonials
-                content={
-                  <React.Fragment>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Adipisci <br /> non doloribus ut, alias doloremque
-                    perspiciatis.
-                  </React.Fragment>
-                }
+                content="
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci non doloribus ut, alias doloremque
+                perspiciatis. Lorem ipsum dolor sit"
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -182,13 +179,10 @@ const Home = () => {
             <img src={bgWhite} id="whiteBG" alt="" />
             <Carousel.Caption id="testi-text">
               <Testimonials
-                content={
-                  <React.Fragment>
+                content="
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Adipisci <br /> non doloribus ut, alias doloremque
-                    perspiciatis.
-                  </React.Fragment>
-                }
+                    Adipisci non doloribus ut, alias doloremque
+                    perspiciatis. Lorem ipsum dolor sit"
               />
             </Carousel.Caption>
           </Carousel.Item>

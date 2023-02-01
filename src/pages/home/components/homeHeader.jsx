@@ -17,7 +17,7 @@ const HomeHeader = () => {
             className="navbar-brand d-flex align-items-center text-white"
             href="/"
           >
-            <h3 className="font-weight-bolder mb-0">ROXY</h3>
+            <h3 className="font-weight-bolder mb-0">NHUB</h3>
           </a>
           <button
             className="navbar-toggler"
@@ -41,6 +41,15 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
+                    to="/WorkSpace"
+                  >
+                    Work Space
+                  </NavLink>
+                </li>
+              <li className="nav-item">
+                  <NavLink
+                    style={navLinkStyle}
+                    className="nav-link"
                     to="/About"
                   >
                   About
@@ -60,6 +69,11 @@ const HomeHeader = () => {
                   Contact
                 </NavLink>
               </li>
+
+              <a className="btn btn-outline-primary btn-lg" href="/">
+             TAKE A TOUR ROUND THE HUB
+                </a>
+
               <li className="nav-item">
                 <Link id="side-search-open" className="nav-link" to="/">
                   <span className="lnr lnr-magnifier"></span>
@@ -72,6 +86,10 @@ const HomeHeader = () => {
               </li>
             </ul>
           </div>
+          {/* <button className="btn btn-primary btn-shadow btn-lg">
+            TAKE A TOUR ROUND THE HUB
+             </button> */}
+             
         </div>
       </nav>
 
@@ -118,9 +136,9 @@ const HomeHeader = () => {
       <div className="jumbotron d-flex align-items-center">
         <div className="container text-center">
           <h1 className="display-1 mb-4">
-            RO
+            NH
             <br />
-            XY
+            UB
           </h1>
         </div>
         <div className="rectangle-1"></div>

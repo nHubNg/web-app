@@ -57,7 +57,7 @@ const Header = (props) => {
               className="navbar-brand d-flex align-items-center text-white"
               to="/"
             >
-              <h3 className="font-weight-bolder mb-0">ROXY</h3>
+              <h3 className="font-weight-bolder mb-0">NHUB</h3>
             </Link>
             <button
               className="navbar-toggler"
@@ -75,6 +75,15 @@ const Header = (props) => {
                 <li className="nav-item">
                   <NavLink style={navLinkStyle} className="nav-link" to="/">
                     Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    style={navLinkStyle}
+                    className="nav-link"
+                    to="/WorkSpace"
+                  >
+                    Work Space
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -100,6 +109,11 @@ const Header = (props) => {
                     Contact
                   </NavLink>
                 </li>
+
+                <a className="btn btn-outline-primary btn-lg" href="/">
+             TAKE A TOUR ROUND THE HUB
+                </a>
+
                 <li className="nav-item">
 
                   <Link id="side-search-open" className="nav-link" to="/">
