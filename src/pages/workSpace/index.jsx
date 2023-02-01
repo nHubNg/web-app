@@ -6,6 +6,7 @@ import blogImage1 from '../../img/blog-1.jpg';
 import blogImage2 from '../../img/blog-2.jpg';
 import blogImage3 from '../../img/blog-3.jpg';
 import blogImage4 from '../../img/blog-4.jpg';
+import Team from "./components/team";
 
 
 const WorkSpace = () => {
@@ -61,6 +62,8 @@ const WorkSpace = () => {
         </div>
     </div>
 </section>
+
+<Team image='blogImage4'/>
 
 <section id="contact-form" className="bg-white">
     <div className="container">
