@@ -5,6 +5,7 @@ import Program from './pages/program';
 import Contact from './pages/contact';
 import OurCourses from './pages/ourCourses';
 import OutSourcing from './pages/outSourcing';
+import CoWorkingSpace from "./pages/coWorkingSpace";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path ="/contact" element ={<Contact />} />
       <Route path="/ourCourses" element ={<OurCourses />} />
       <Route path="/outSourcing" element ={<OutSourcing />} />
+      <Route path="/coWorkingSpace" element ={<CoWorkingSpace />} />
 
   
     </Routes>

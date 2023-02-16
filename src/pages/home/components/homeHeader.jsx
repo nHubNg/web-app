@@ -65,6 +65,11 @@ const HomeHeader = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
+                  <NavLink style={navLinkStyle} className="nav-link" to="/CoWorkingSpace">
+                    Co-Working Space
+                  </NavLink>
+                </li>
+                <li className="nav-item">
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
