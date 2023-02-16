@@ -15,35 +15,31 @@ const About = () => {
 
   return (
     <>
-      <Header name="About Our Company" />
+      <Header name="About Our Organization" />
       <section id="who-we-are" className="bg-white">
         <div className="container">
           <div className="section-content">
             <div className="title-wrap" data-aos="fade-up">
               <h2 className="section-title">
-              NHUB NIGERIA STARTUP INNOVATION COMMUNITY
+                NHUB NIGERIA STARTUP INNOVATION COMMUNITY
               </h2>
               <p className="section-sub-title">
-              nHub plays a leadership role in nurturing dialogue,
-disseminating knowledge, and re-wiring the
-ecosystem through different community-based efforts
-that are geared towards building a generation of new
-entrepreneurs, software developers, and an army of
-skilled and employable young
-people matching industry needs in priority sectors.
-We believe technology is a catalyst for growth and that
-client satisfaction is driven by the best and
-timely services.
-We are focused on empowering entrepreneurs on their
-journey to build great ideas out of little or
-nothing, we work with Start-ups at every stage of
-maturity to provide the tools, resources,
-knowledge and expertise they need to succeed.
-We help Start-ups scale their businesses, bring innovative
-services to the market and reach new
-customers through our connections. Our work spans from
-conceiving ideas, trainings, incubation,
-collaboration and creation of services.
+                nHub plays a leadership role in nurturing dialogue,
+                disseminating knowledge, and re-wiring the ecosystem through
+                different community-based efforts that are geared towards
+                building a generation of new entrepreneurs, software developers,
+                and an army of skilled and employable young people matching
+                industry needs in priority sectors. We believe technology is a
+                catalyst for growth and that client satisfaction is driven by
+                the best and timely services. We are focused on empowering
+                entrepreneurs on their journey to build great ideas out of
+                little or nothing, we work with Start-ups at every stage of
+                maturity to provide the tools, resources, knowledge and
+                expertise they need to succeed. We help Start-ups scale their
+                businesses, bring innovative services to the market and reach
+                new customers through our connections. Our work spans from
+                conceiving ideas, trainings, incubation, collaboration and
+                creation of services.
               </p>
             </div>
 
@@ -205,6 +201,12 @@ collaboration and creation of services.
             </div>
           </div>
         </div>
+
+        <div className="about-staff">
+          <h3>MEET OUR STAFF</h3>
+        </div>
+
+        <div className="about-img"></div>
       </section>
       <FeatureSection />
       <Footer />

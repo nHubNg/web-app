@@ -749,6 +749,10 @@ section {
   .sidenav a {
     font-size: 18px;
   }
+  .individual-card {
+    padding: 10px;
+    width: 80%;
+  }
 }
 
 #side-search .form-control {
@@ -955,18 +959,72 @@ section {
     height: 30px;
     font-size: 16px;
   }
+  .individual-card {
+    padding: 10px;
+    width: 80%;
+  }
 }
 
 /*=====  End of RESPONSIVE  ======*/
-.co-working-table{
+.co-working-table {
   margin-top: 50px;
 }
 
-.co-working-div{
+.co-working-div {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.co-working-title{
+.co-working-title {
   margin-top: 50px;
+}
+
+.individual-card {
+  padding: 60px;
+  width: 60%;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: large;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+  font-size: large;
+}
+
+@media screen and (max-width: 375px) {
+  .individual-card {
+    padding: 20px;
+    width: 85%;
+  }
+  .program-p {
+    padding: 0px 20px 0px 20px;
+  }
+  .card-1 {
+    font-size: small;
+  }
+  .card-2 {
+    font-size: small;
+  }
+  .about-img {
+    flex-direction: column;
+  }
+}
+
+.about-staff {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

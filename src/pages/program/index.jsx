@@ -16,7 +16,7 @@ const Program = () => {
               <h2 className="section-title">
                 Our <b>Services</b>
               </h2>
-              <p className="section-sub-title">
+              <p className="section-sub-title program-p">
                 As a technological hub, our main focus is on the tech aspect of
                 life. Setting up of digital laboratories for institutions and
                 schools. We also engage in C.B.T installations for companies and
@@ -31,16 +31,20 @@ const Program = () => {
                 various instit
               </p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="title-wrap mb-5">
-              <h2 className="section-title">
-                Our <b>Programs</b>
-              </h2>
-            </div>
+      <div className="title-wrap mb-5">
+        <h2 className="section-title">
+          <b>Our</b> Programs
+        </h2>
+      </div>
 
-            <Card
-              title="SEVO CODER"
-              paragraph="This is a Training Program created for children in Secondary
+      <div className="card-1">
+        <Card
+          title="SEVO CODER"
+          paragraph="This is a Training Program created for children in Secondary
                   schools and Colleges to aquire Digital and Entrepreneurship
                   Skills. Lorem ipsum dolor sit amet, consectetur adipisicing
                   elit. At quisquam voluptatum, ad officiis possimus laudantium
@@ -51,11 +55,13 @@ const Program = () => {
                   aperiam fugiat? Laboriosam, quam commodi temporibus ratione
                   assumenda dicta quasi accusantium sapiente culpa quos
                   molestias obcaecati doloremque."
-            />
+        />
+      </div>
 
-            <Card
-              title="INCUBATION AND ENTERPRENEURSHIP"
-              paragraph="We train, and develop business concepts as well as make
+      <div className="card-2">
+        <Card
+          title="INCUBATION AND ENTERPRENEURSHIP"
+          paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
                   take their product development to the highest level. we also
                   provide services for clients ranging from Staff engagement and
@@ -70,11 +76,13 @@ const Program = () => {
                   obcaecati commodi fugit quae quibusdam nobis corporis
                   laudantium alias quam, tenetur laboriosam earum ut sunt
                   distinctio ipsam. Pariatur laudantium quis autem!"
-            />
+        />
+      </div>
 
-            <Card
-              title="NEXT ECONOMY"
-              paragraph="This is an Intervention program initiated by the Dutch
+      <div className="card-1">
+        <Card
+          title="NEXT ECONOMY"
+          paragraph="This is an Intervention program initiated by the Dutch
                   Government targeted towards African Countries. It has seen
                   over 1000 young Nigerians trained for free, gainfully
                   employed, and supported with funds to start as well as scale
@@ -87,10 +95,8 @@ const Program = () => {
                   quibusdam tempore aperiam fugiat? Laboriosam, quam commodi
                   temporibus ratione assumenda dicta quasi accusantium sapiente
                   culpa quos molestias obcaecati doloremque."
-            />
-          </div>
-        </div>
-      </section>
+        />
+      </div>
 
       {/* <!-- Features Section--> */}
 
