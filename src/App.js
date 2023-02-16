@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
-import Blog from './pages/blog';
+import Program from './pages/program';
 import Contact from './pages/contact';
-import WorkSpace from './pages/workSpace';
-import SingleBlog from './pages/singleBlog';
+import OurCourses from './pages/ourCourses';
+import OutSourcing from './pages/outSourcing';
 
 
 
@@ -18,10 +18,10 @@ function App() {
       
       <Route path ="/" element ={<Home />} />
       <Route path ="/about" element ={<About />} />
-      <Route path ="/blog" element ={<Blog />} />
+      <Route path ="/programs" element ={<Program />} />
       <Route path ="/contact" element ={<Contact />} />
-      <Route path="/workSpace" element ={<WorkSpace />} />
-      <Route path="/singleBlog" element ={<SingleBlog />} />
+      <Route path="/ourCourses" element ={<OurCourses />} />
+      <Route path="/outSourcing" element ={<OutSourcing />} />
 
   
     </Routes>

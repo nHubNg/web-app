@@ -12,8 +12,8 @@ const Testimonials = (props) => {
         <h4 className="testi-text text-center">{props.content}</h4>
         <div className="testi-meta-inner d-flex justify-content-center align-items-center">
           <div className="testi-img ">
-              <img src={testi} alt="" />
-            </div>
+            <img src={testi} alt="" />
+          </div>
           <div className="testi-details">
             <p className="testi-author mb-0 font-weight-bolder">John Doe</p>
             <p className="testi-desc mb-0">Web Designer</p>

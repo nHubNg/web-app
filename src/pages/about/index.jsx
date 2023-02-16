@@ -15,19 +15,35 @@ const About = () => {
 
   return (
     <>
-      <Header name="About" />
+      <Header name="About Our Company" />
       <section id="who-we-are" className="bg-white">
         <div className="container">
           <div className="section-content">
             <div className="title-wrap" data-aos="fade-up">
               <h2 className="section-title">
-                The easiest way <br />
-                to build<b> websites online</b>
+              NHUB NIGERIA STARTUP INNOVATION COMMUNITY
               </h2>
               <p className="section-sub-title">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. Nulla vitae elit libero, a <br /> pharetra augue. Donec id
-                elit non mi porta gravida at eget metus.
+              nHub plays a leadership role in nurturing dialogue,
+disseminating knowledge, and re-wiring the
+ecosystem through different community-based efforts
+that are geared towards building a generation of new
+entrepreneurs, software developers, and an army of
+skilled and employable young
+people matching industry needs in priority sectors.
+We believe technology is a catalyst for growth and that
+client satisfaction is driven by the best and
+timely services.
+We are focused on empowering entrepreneurs on their
+journey to build great ideas out of little or
+nothing, we work with Start-ups at every stage of
+maturity to provide the tools, resources,
+knowledge and expertise they need to succeed.
+We help Start-ups scale their businesses, bring innovative
+services to the market and reach new
+customers through our connections. Our work spans from
+conceiving ideas, trainings, incubation,
+collaboration and creation of services.
               </p>
             </div>
 

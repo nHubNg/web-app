@@ -5,37 +5,23 @@ import bg from '../../img/bg.jpg';
 import profileMockup from '../../img/app-profile-mockup.png';
 import bgWhite from '../../img/bg-white.jpg';
 import Testimonials from './components/testimonials';
-import photo_1 from '../../img/photo-1.jpg';
-import photo_6 from '../../img/photo-6.jpg';
-import photo_2 from '../../img/photo-2.jpg';
-import photo_7 from '../../img/photo-7.jpg';
-import photo_4 from '../../img/photo-4.jpg';
-import photo_9 from '../../img/photo-9.jpg';
 import client from '../../img/client.png';
-import { Link } from 'react-router-dom';
-import AOS from 'aos';
-import React, { useEffect } from 'react';
-import FeatureSection from '../../components/featureSection';
-// import testi from '../../img/testi-1.jpg';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import FeatureSection from '../../components/featureSection';
 
 const options = {
   autoplay: true,
-  autoplayTimeout:5000,
-  loop:true,
+  autoplayTimeout: 5000,
+  loop: true,
   items: 5,
   smartSpeed: 1500,
-
 };
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div>
       <HomeHeader />
@@ -189,310 +175,6 @@ const Home = () => {
         </Carousel>
       </section>
 
-      {/* <!-- Portfolio Section --> */}
-      <section id="portfolio" className="bg-white">
-        <div className="container">
-          <div className="section-content">
-            {/* <!-- Section Title --> */}
-            <div className="title-wrap">
-              <h2 className="section-title">
-                Our <b>Awesome</b> Works
-              </h2>
-              <p className="section-sub-title">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. <br /> pharetra augue. Donec id elit non mi.
-              </p>
-            </div>
-            {/* <!-- End of Section Title --> */}
-            <div className="row">
-              {/* <!-- Portfolio Holder --> */}
-              <div className="col-md-12 portfolio-holder mt-3">
-                {/* <!-- Btn Filter --> */}
-                <div className="filter-button-group btn-filter d-flex justify-content-center">
-                  <a
-                    tabIndex="0"
-                    className="is-checked"
-                    data-filter="*"
-                    href="/"
-                  >
-                    Show All
-                  </a>
-                  <a tabIndex="0" data-filter=".minimalism" href="/">
-                    Minimalism
-                  </a>
-                  <a tabIndex="0" data-filter=".vintage" href="/">
-                    Vintage
-                  </a>
-                  <a tabIndex="0" data-filter=".creative" href="/">
-                    Creative
-                  </a>
-                </div>
-                {/* <!-- End of Btn Filter --> */}
-                {/* <!-- Portfolio Content --> */}
-                <div
-                  className="grid-portfolio"
-                  style={{ position: 'relative', height: '887.383px' }}
-                >
-                  <div className="grid-sizer"></div>
-                  <div className="gutter-sizer"></div>
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate minimalism"
-                    data-aos="fade-up"
-                    style={{ position: 'absolute', left: '0%', top: '0px' }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_1}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_1}
-                            title="Photo-1"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Camera</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate vintage"
-                    data-aos="fade-up"
-                    style={{
-                      position: 'absolute',
-                      left: '33.9984%',
-                      top: '0px',
-                    }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_6}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_6}
-                            title="Ship"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Flower</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate creative grid-item-height"
-                    data-aos="fade-up"
-                    style={{
-                      position: 'absolute',
-                      left: '67.9968%',
-                      top: '0px',
-                    }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_2}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_2}
-                            title="Tracy Portrait"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Breakfast</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate creative"
-                    data-aos="fade-up"
-                    style={{
-                      position: 'absolute',
-                      left: '33.9984%',
-                      top: '375.195px',
-                    }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_7}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_7}
-                            title="Guitar"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Hidden Book</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate vintage"
-                    data-aos="fade-up"
-                    style={{
-                      position: 'absolute',
-                      left: '0%',
-                      top: '552.793px',
-                    }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_4}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_4}
-                            title="Bookself"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Chair</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                  {/* <!-- Portfolio Item --> */}
-                  <div
-                    className="grid-item aos-init aos-animate creative"
-                    data-aos="fade-up"
-                    style={{
-                      position: 'absolute',
-                      left: '67.9968%',
-                      top: '552.793px',
-                    }}
-                  >
-                    <div className="grid-item-wrapper">
-                      <img
-                        src={photo_9}
-                        alt="portfolio-img"
-                        className="portfolio-item"
-                      />
-                      <div className="grid-info">
-                        <div className="grid-link d-flex justify-content-center">
-                          <Link
-                            className="img-pop"
-                            data-rel="lightcase"
-                            to={photo_9}
-                            title="Guitar"
-                          >
-                            <span className="lnr lnr-move"></span>
-                          </Link>
-                          <Link
-                            className="ext-link"
-                            to="https://unsplash.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <span className="lnr lnr-link"></span>
-                          </Link>
-                        </div>
-                        <div className="grid-title">
-                          <h4>Red</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <!-- End of Portfolio Item --> */}
-                </div>
-                {/* <!-- End of Portfolio Content --> */}
-              </div>
-              {/* <!-- End of Portfolio Holder --> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <!-- End of Portfolio Section --> */}
-
       {/* <!-- Client Section --> */}
       <section
         id="client"
@@ -516,25 +198,28 @@ const Home = () => {
               {/* <!-- Client Holder --> */}
               <div className="col-md-12 client-holder">
                 <div className="client-slider">
-                <OwlCarousel className="slider-items owl-carousel" {...options}>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
-                  <div className="client-item">
-                    <img className="img-responsive" src={client} alt=" " />
-                  </div>
+                  <OwlCarousel
+                    className="slider-items owl-carousel"
+                    {...options}
+                  >
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
+                    <div className="client-item">
+                      <img className="img-responsive" src={client} alt=" " />
+                    </div>
                   </OwlCarousel>
                 </div>
                 {/* <!-- End of Client Holder --> */}

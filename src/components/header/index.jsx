@@ -81,9 +81,9 @@ const Header = (props) => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/WorkSpace"
+                    to="/OurCourses"
                   >
-                    Work Space
+                    Our Courses
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -96,8 +96,8 @@ const Header = (props) => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink style={navLinkStyle} className="nav-link" to="/Blog">
-                    Blog
+                  <NavLink style={navLinkStyle} className="nav-link" to="/Programs">
+                    Programs
                   </NavLink>
                 </li>
                 <li className="nav-item">
