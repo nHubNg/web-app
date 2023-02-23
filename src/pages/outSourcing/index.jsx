@@ -38,105 +38,103 @@ const OutSourcing = () => {
               </div>
               {/* <!-- End of Contact Form Holder --> */}
 
-              <div>
-                <div>
+              <div className="stack">
+                <div className="title-wrap">
+                  <h4>STACKS AND THEIR VARIOUS RESOURCES</h4>
+                </div>
+                <div className="stack-1">
                   <h3>
                     <b>FRONTEND</b>
                   </h3>
                   <h4>LANGUAGES</h4>
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                  </ul>
+
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JAVASCRIPT</p>
+
                   <h4>TOOLS</h4>
-                  <ul>
-                    <li>GITHUB</li>
-                    <li>NETLIFY</li>
-                    <li>HEROKU</li>
-                    <li>REDUX</li>
-                  </ul>
+
+                  <p>GITHUB</p>
+                  <p>NETLIFY</p>
+                  <p>HEROKU</p>
+                  <p>REDUX</p>
+
                   <h4>FRAMEWORKS</h4>
-                  <ul>
-                    <li>REACT.JS</li>
-                    <li>REACT.JS</li>
-                    <li>HOOKS</li>
-                    <li>REDUX</li>
-                    <li>CONTEXT API</li>
-                    <li>STYLED COMPONENTS</li>
-                  </ul>
+
+                  <p>REACT.JS</p>
+                  <p>REACT.JS</p>
+                  <p>HOOKS</p>
+                  <p>REDUX</p>
+                  <p>CONTEXT API</p>
+                  <p>STYLED COMPONENTS</p>
                 </div>
 
-                <div>
+                <div className="stack-2">
                   <h3>
                     <b>BACKEND</b>
                   </h3>
                   <h4>LANGUAGES</h4>
-                  <ul>
-                    <li>JAVASCRIPT</li>
-                    <li>TYPESCRIPT</li>
-                    <li>PYTHON</li>
-                  </ul>
+
+                  <p>JAVASCRIPT</p>
+                  <p>TYPESCRIPT</p>
+                  <p>PYTHON</p>
+
                   <h4>TOOLS</h4>
-                  <ul>
-                    <li>GITHUB</li>
-                    <li>HEROKU</li>
-                    <li>FIREBASE</li>
-                    <li>AWS S3, ELASTIC BEANSTALK</li>
-                    <li>MONGODB</li>
-                    <li>POSTGRES</li>
-                    <li>JIRA</li>
-                    <li>SLACK</li>
-                  </ul>
+
+                  <p>GITHUB</p>
+                  <p>HEROKU</p>
+                  <p>FIREBASE</p>
+                  <p>AWS S3, ELASTIC BEANSTALK</p>
+                  <p>MONGODB</p>
+                  <p>POSTGRES</p>
+                  <p>JIRA</p>
+                  <p>SLACK</p>
+
                   <h4>FRAMEWORKS</h4>
-                  <ul>
-                    <li>NODE-EXPRESS; REST API</li>
-                    <li>NODE-NEST; REST API</li>
-                    <li>UNITY/INTEGRATION TESTING WITH JEST</li>
-                    <li>FLASK REST</li>
-                  </ul>
+
+                  <p>NODE-EXPRESS; REST API</p>
+                  <p>NODE-NEST; REST API</p>
+                  <p>UNITY/INTEGRATION TESTING WITH JEST</p>
+                  <p>FLASK REST</p>
                 </div>
 
-                <div>
+                <div className="stack-1">
                   <h3>
                     <b>UI/UX</b>
                   </h3>
-                  <h4>TOOLS</h4>
-                  <ul>
-                    <li>FIGMA</li>
-                    <li>ADOBE XD</li>
-                  </ul>
+
+                  <p>FIGMA</p>
+                  <p>ADOBE XD</p>
                 </div>
 
-                <div>
+                <div className="stack-2">
                   <h3>
                     <b>AR/VR</b>
                   </h3>
                   <h4>LANGUAGES</h4>
-                  <ul>
-                    <li>C#</li>
-                    <li>C++</li>
-                    <li>BLUEPRINT</li>
-                    <li>JAVASCRIPT</li>
-                  </ul>
+
+                  <p>C#</p>
+                  <p>C++</p>
+                  <p>BLUEPRINT</p>
+                  <p>JAVASCRIPT</p>
+
                   <h4>TOOLS</h4>
-                  <ul>
-                    <li>GITHUB</li>
-                    <li>BLENDER</li>
-                    <li>UNREAL ENGINE</li>
-                    <li>UNITY</li>
-                    <li>MAYA</li>
-                  </ul>
+
+                  <p>GITHUB</p>
+                  <p>BLENDER</p>
+                  <p>UNREAL ENGINE</p>
+                  <p>UNITY</p>
+                  <p>MAYA</p>
+
                   <h4>FRAMEWORKS</h4>
-                  <ul>
-                    <li>THREE .JS</li>
-                    <li>DECK .GL</li>
-                  </ul>
+
+                  <p>THREE .JS</p>
+                  <p>DECK .GL</p>
+
                   <h4>DEPLOYMENT</h4>
-                  <ul>
-                    <li>SIDE QUEST</li>
-                    <li>STEAM</li>
-                  </ul>
+
+                  <p>SIDE QUEST</p>
+                  <p>STEAM</p>
                 </div>
               </div>
             </div>

@@ -5,21 +5,21 @@ import bg from '../../img/bg.jpg';
 import profileMockup from '../../img/app-profile-mockup.png';
 import bgWhite from '../../img/bg-white.jpg';
 import Testimonials from './components/testimonials';
-import client from '../../img/client.png';
+// import client from '../../img/client.png';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import OwlCarousel from 'react-owl-carousel';
+// import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import FeatureSection from '../../components/featureSection';
 
-const options = {
-  autoplay: true,
-  autoplayTimeout: 5000,
-  loop: true,
-  items: 5,
-  smartSpeed: 1500,
-};
+// const options = {
+//   autoplay: true,
+//   autoplayTimeout: 5000,
+//   loop: true,
+//   items: 5,
+//   smartSpeed: 1500,
+// };
 
 const Home = () => {
   return (
@@ -183,21 +183,21 @@ const Home = () => {
           backgroundImage: `url(${bg})`,
         }}
       >
-        <div className="container">
+        {/* <div className="container">
           <div className="section-content" data-aos="fade-up">
             <div className="row ">
               <div className="col-md-12">
                 {/* <!-- Section Title --> */}
-                <div className="title-wrap mb-5">
+                {/* <div className="title-wrap mb-5">
                   <h2>
                     Who love to <span> work</span> with us
                   </h2>
-                </div>
+                </div> */}
                 {/* <!-- End of Section Title --> */}
-              </div>
+              {/* </div> */}
               {/* <!-- Client Holder --> */}
-              <div className="col-md-12 client-holder">
-                <div className="client-slider">
+              {/* <div className="col-md-12 client-holder"> */}
+                {/* <div className="client-slider">
                   <OwlCarousel
                     className="slider-items owl-carousel"
                     {...options}
@@ -221,12 +221,12 @@ const Home = () => {
                       <img className="img-responsive" src={client} alt=" " />
                     </div>
                   </OwlCarousel>
-                </div>
+                </div> */}
                 {/* <!-- End of Client Holder --> */}
-              </div>
-            </div>
-          </div>
-        </div>
+              {/* </div> */}
+            {/* </div> */}
+          {/* // </div> */}
+        {/* </div> */} 
       </section>
       {/* <!-- End of Client Section -->	 */}
 

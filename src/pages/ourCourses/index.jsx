@@ -153,38 +153,6 @@ over 5,000 people."
 
       {/* <Team image='blogImage4'/> */}
 
-      <section id="contact-form" className="bg-white">
-        <div className="container">
-          <div className="section-content pt-0">
-            <div className="title-wrap" data-aos="fade-up">
-              <h2 className="section-title">Where To Find Us?</h2>
-            </div>
-            <div className="row text-center mt-4">
-              <div className="col-md-3" data-aos="fade-up">
-                <span className="lnr lnr-location fs-40 py-4 d-block"></span>
-                <h5>LOCATION</h5>
-                <p>Jos, Plateau State</p>
-              </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                <span className="lnr lnr-clock fs-40 py-4 d-block"></span>
-                <h5>WORKING TIME</h5>
-                <p>Monday - Saturday</p>
-              </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-delay="400">
-                <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
-                <h5>CALL US</h5>
-                <p>123-45678</p>
-              </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
-                <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
-                <h5>EMAIL</h5>
-                <p>company@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <FeatureSection />
       <Footer />
     </>
