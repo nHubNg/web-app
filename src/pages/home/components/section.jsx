@@ -10,18 +10,10 @@ const Section = () => {
             {/* <!-- Section Title --> */}
             <div className="title-wrap mb-5" data-aos="fade-up">
               <h2 className="section-title">
-                A template built by{' '}
-                <a
-                  href="https://gettemplates.co"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GetTemplates.co
-                </a>
+                  NHUB NIGERIA
               </h2>
               <p className="section-sub-title">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. <br /> pharetra augue. Donec id elit non mi.
+              Highly driven by a desire to see Nigeria and Nigerians  placed on the global spotlight of emerging technologies.
               </p>
             </div>
             {/* <!-- End of Section Title --> */}

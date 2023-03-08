@@ -7,13 +7,10 @@ import backend from '../../img/hub/backend.jpg';
 import ui from '../../img/hub/ui.jpg';
 import data from '../../img/hub/data.jpg';
 import embedded from '../../img/hub/embedded.jpg';
-import vr from '../../img/hub/vr.jpg';
-// import security from '../../img/hub/security.jpg';
+import vr from '../../img/blog-2.jpg';
 import networking from '../../img/hub/networking.jpg';
 import marketing from '../../img/hub/marketing.jpg';
 import cyber from '../../img/hub/cyber.jpg';
-// import blogImage4 from '../../img/blog-4.jpg';
-// import Team from "./components/team";
 import bg from '../../img/hub/cover.jpg';
 
 const OurCourses = () => {
@@ -113,52 +110,6 @@ over 5,000 people."
           </div>
         </div>
       </section>
-
-      {/* <section id="single-content" className="bg-white">
-        <div className="container">
-          <div className="section-content blog-content">
-            <div className="row"> */}
-              {/* <!-- Single Content Holder --> */}
-              {/* <div className="col-md-8 offset-md-2 mt-4">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <img
-                  className="float-left"
-                  width="320px"
-                  src={blogImage4}
-                  alt=""
-                />
-                <p>
-                  Consectetur adipisicing elit. Sint, corrupti deleniti, rem
-                  mollitia quam cum quo, animi ipsa praesentium officiis
-                  ducimus! Modi aperiam, nulla ipsum, totam natus consequuntur
-                  fugiat blanditiis.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
-                  harum, ut magni cupiditate. Nihil ipsum debitis voluptates
-                  voluptate illum consectetur sapiente dolorem facilis, eum
-                  nobis sequi eveniet assumenda vel voluptatem!
-                </p>
-                <p>
-                  Consectetur adipisicing elit. Sint, corrupti deleniti, rem
-                  mollitia quam cum quo, animi ipsa praesentium officiis
-                  ducimus! Modi aperiam, nulla ipsum, totam natus consequuntur
-                  fugiat blanditiis.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
-                  harum, ut magni cupiditate. Nihil ipsum debitis voluptates
-                  voluptate illum consectetur sapiente dolorem facilis, eum
-                  nobis sequi eveniet assumenda vel voluptatem!
-                </p>
-              </div> */}
-              {/* <!-- End of Contact Form Holder --> */}
-            {/* </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* <Team image='blogImage4'/> */}
 
       <FeatureSection />
       <Footer />
