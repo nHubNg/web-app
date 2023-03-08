@@ -129,30 +129,6 @@ const Header = (props) => {
                   TAKE A TOUR ROUND THE HUB
                 </a>
 
-                {/* <NavLink
-                  style={navLinkStyle}
-                  className="nav-link"
-                  to="/Contact"
-                >
-                  <a className="nav-link" href="/">
-                    internship
-                  </a>
-                </NavLink> */}
-
-                {/* <li className="nav-item">
-
-                  <Link id="side-search-open" className="nav-link" to="/">
-
-                    <span className="lnr lnr-magnifier"></span>
-                  </Link>
-                </li> */}
-                {/* <li className="nav-item only-desktop">
-
-                  <Link className="nav-link" id="side-nav-open" to="/">
-
-                    <span className="lnr lnr-menu"></span>
-                  </Link>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -163,7 +139,7 @@ const Header = (props) => {
             backgroundImage: `url(${props.bg})`,
           }}
         >
-          <div className="container text-center">
+          <div className="container text-center header-text">
             <h1 className="display-2 mb-4">{props.name}</h1>
           </div>
         </div>

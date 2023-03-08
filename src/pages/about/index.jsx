@@ -2,9 +2,6 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Card from './components/card';
 import cover from '../../img/hub/cover.jpg';
-// import checkmark from '../../img/icons/animat-checkmark.gif';
-// import customize from '../../img/icons/animat-customize.gif';
-// import responsive from '../../img/icons/animat-responsive.gif';
 import FeatureSection from '../../components/featureSection';
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -17,7 +14,7 @@ const About = () => {
 
   return (
     <>
-      <Header name="About Our Organization" bg={bg} />
+      <Header name="About Us" bg={bg} />
       <section id="who-we-are" className="bg-white">
         <div className="container">
           <div className="section-content">

@@ -4,7 +4,7 @@ const Works = ({ image, name, title, description }) => {
   return (
     <>
       {/* <!-- Blog Item --> */}
-      <div className="col-md-4 blog-item-wrapper" data-aos="fade-up">
+      <div className="col-md-4 blog-item-wrapper">
         <div className="blog-item">
           <div className="blog-img">
             {/* change to Link component for routing */}

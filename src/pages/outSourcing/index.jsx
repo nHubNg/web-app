@@ -7,7 +7,7 @@ import bg from '../../img/hub/outsorcing.jpg';
 const OutSourcing = () => {
   return (
     <>
-      <Header name="OutSourcing Programs" bg={bg} />
+      <Header name="OutSource Programs" bg={bg} />
 
       {/* <!-- Contact Form Section --> */}
       <section id="single-content" className="bg-white">
@@ -15,7 +15,7 @@ const OutSourcing = () => {
           <div className="section-content blog-content">
             <div className="row">
               {/* <!-- Single Content Holder --> */}
-              <div className="title-wrap">
+              <div className="title-wrap" style={{padding: '15px'}}>
                 <h4>EXECUTIVE SUMMARY</h4>
                 {/* <img className="float-left" width="320px" src={blogImage4} alt="" /> */}
                 <p>

@@ -1099,6 +1099,20 @@ section {
     justify-content: space-around;
     margin: 40px 30px 70px 30px;
   }
+
+  .stack-1 {
+    padding: 15px;
+  }
+
+  .stack-2 {
+    padding: 15px;
+  }
+
+  .jumbotron h1 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 4rem;
+  }
 }
 
 @media screen and (min-width: 500px) {
