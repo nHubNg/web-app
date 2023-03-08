@@ -1,8 +1,8 @@
 import Footer from '../../components/footer';
 import HomeHeader from './components/homeHeader';
 import Section from './components/section';
-import bg from '../../img/bg.jpg';
-import profileMockup from '../../img/app-profile-mockup.png';
+import bg from '../../img/hub/backk.JPG';
+import profileMockup from '../../img/hub/wire.jpg';
 import bgWhite from '../../img/bg-white.jpg';
 import Testimonials from './components/testimonials';
 // import client from '../../img/client.png';
@@ -11,18 +11,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import cover from '../../img/hub/cover.jpg';
 import courses from '../../img/hub/courses.JPG';
 import contact from '../../img/hub/contact.JPG';
-// import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import FeatureSection from '../../components/featureSection';
-
-// const options = {
-//   autoplay: true,
-//   autoplayTimeout: 5000,
-//   loop: true,
-//   items: 5,
-//   smartSpeed: 1500,
-// };
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -46,15 +38,19 @@ const Home = () => {
                     data-aos="fade-right"
                   >
                     <h4 className="mb-4">
-                      Capture every moments and share it to all your friends
+                      Check out our road map for each technology
                     </h4>
                     <p>
-                      Nulla vitae elit libero, a pharetra augue. Maecenas sed
-                      diam eget risus varius blandit sit amet non magna. Cras
-                      mattis consectetur purus sit amet.
+                      Our curriculum consist of all the necessary and updated
+                      libraries, frameworks and languages needed for each
+                      technology as well as the resources needed for the tech
+                      journey.
+                    </p>
+                    <p>
+                      Check out the various stacks and their curriculum below.
                     </p>
                     <button type="button" className="btn btn-outline-primary">
-                      FEATURES
+                      <Link to="/outSourcing">CURRICULUM</Link>
                     </button>
                   </div>
 
@@ -62,7 +58,12 @@ const Home = () => {
                     className="col-md-4 offset-md-right-2 col-sm-6"
                     data-aos="flip-right"
                   >
-                    <img className="my-5" src={profileMockup} alt="" />
+                    <img
+                      className="my-5"
+                      src={profileMockup}
+                      alt=""
+                      style={{ borderRadius: '5px' }}
+                    />
                   </div>
                 </div>
                 <div
@@ -75,67 +76,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="section-featurettes" className="featurettes">
-        <div className="container">
-          <div className="section-content">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="row align-items-center">
-                  <div
-                    className="col-md-4 offset-md-2 col-sm-6"
-                    data-aos="flip-left"
-                  >
-                    <img className="my-5" src={profileMockup} alt="" />
-                  </div>
-
-                  <div
-                    className="col-md-4 offset-md-right-2 col-sm-6"
-                    data-aos="fade-left"
-                  >
-                    <h4 className="mb-4">
-                      Capture every moments and share it to all your friends
-                    </h4>
-                    <p>
-                      Nulla vitae elit libero, a pharetra augue. Maecenas sed
-                      diam eget risus varius blandit sit amet non magna. Cras
-                      mattis consectetur purus sit amet.
-                    </p>
-                    <div className="progress mb-3">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{
-                          width: '95%',
-                          ariaValuenow: '95',
-                          ariaValuemin: '0',
-                          ariaValuemax: '100',
-                        }}
-                      >
-                        HTML5 95%
-                      </div>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        role="progressbar"
-                        style={{
-                          width: '90%',
-                          ariaValuenow: '90',
-                          ariaValuemin: '0',
-                          ariaValuemax: '100',
-                        }}
-                      >
-                        CSS3 90%
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <!-- Testimonial Section--> */}
       <section>
         <Carousel id="carosel">
           <Carousel.Item>
