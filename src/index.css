@@ -1034,6 +1034,7 @@ section {
 .about-staff {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 90px;
 }
 
 .about-img {
@@ -1104,4 +1105,8 @@ section {
   .footer-icon {
     margin: 40px 30px 70px 30px;
   }
+}
+
+.staff{
+  border-radius: 10px;
 }

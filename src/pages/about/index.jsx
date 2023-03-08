@@ -1,9 +1,10 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Card from './components/card';
-import checkmark from '../../img/icons/animat-checkmark.gif';
-import customize from '../../img/icons/animat-customize.gif';
-import responsive from '../../img/icons/animat-responsive.gif';
+import cover from '../../img/hub/cover.jpg'
+// import checkmark from '../../img/icons/animat-checkmark.gif';
+// import customize from '../../img/icons/animat-customize.gif';
+// import responsive from '../../img/icons/animat-responsive.gif';
 import FeatureSection from '../../components/featureSection';
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -44,12 +45,27 @@ const About = () => {
               </p>
             </div>
 
+
+            <section id="skills" className="bg-white">
+        
+
+        <div className="about-staff">
+          <h3>MEET OUR STAFF</h3>
+          <p className="section-sub-title">
+            With our diverse collection of technology tracks, we have an amazing teams of developers mentors and instructors to match each</p>
+        </div>
+
+
+      </section>
             <div className="row text-center">
               <div className="col-md-4 col-sm-6" data-aos="fade-up">
                 <Card
-                  image={checkmark}
-                  heading="Simple and Clean"
-                  description="Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit."
+                  image={cover}
+                  heading="Osofia"
+                  description="CEO"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6  --> */}
@@ -59,9 +75,12 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <Card
-                  image={customize}
-                  heading="Easy to Customize"
-                  description="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis."
+                  image={cover}
+                  heading="TuPac"
+                  description="Administrator"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6  --> */}
@@ -71,9 +90,54 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image={responsive}
-                  heading="Fully Responsive"
-                  description="Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper."
+                  image={cover}
+                  heading="Sodiqi"
+                  description="Manager"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={cover}
+                  heading="Sodiqi"
+                  description="Manager"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={cover}
+                  heading="Sodiqi"
+                  description="Manager"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={cover}
+                  heading="Sodiqi"
+                  description="Manager"
+                  twitter=''
+                  instagram=''
+                  linkedIn=''
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6  --> */}
@@ -83,132 +147,7 @@ const About = () => {
         </div>
       </section>
 
-      <section id="skills" className="bg-white">
-        <div className="container">
-          <div className="section-content pt-0">
-            <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>HTML5</p>
-                    <p className="text-muted">90%</p>
-                  </div>
-                  <div className="progress" data-percent="90%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>CSS3</p>
-                    <p className="text-muted">85%</p>
-                  </div>
-                  <div className="progress" data-percent="85%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="85"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>JQUERY</p>
-                    <p className="text-muted">73%</p>
-                  </div>
-                  <div className="progress" data-percent="73%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="73"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-              </div>
-              <div className="col-md-6" data-aos="fade-left">
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>Adobe Photoshop</p>
-                    <p className="text-muted">80%</p>
-                  </div>
-                  <div className="progress" data-percent="80%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>Adobe Illustrator</p>
-                    <p className="text-muted">60%</p>
-                  </div>
-                  <div className="progress" data-percent="60%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-                {/* <!-- Skill Item --> */}
-                <div className="skill-item">
-                  <div className="d-flex justify-content-between">
-                    <p>Wordpress</p>
-                    <p className="text-muted">55%</p>
-                  </div>
-                  <div className="progress" data-percent="55%">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="55"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: 0 }}
-                    ></div>
-                  </div>
-                </div>
-                {/* <!-- End Skill Item --> */}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="about-staff">
-          <h3>MEET OUR STAFF</h3>
-        </div>
-
-        <div className="about-img"></div>
-      </section>
+      
       <FeatureSection />
       <Footer />
     </>
