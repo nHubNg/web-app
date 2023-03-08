@@ -2,10 +2,17 @@ import FeatureSection from '../../components/featureSection';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Works from './components/works';
-import blogImage1 from '../../img/blog-1.jpg';
-import blogImage2 from '../../img/blog-2.jpg';
-import blogImage3 from '../../img/blog-3.jpg';
-import blogImage4 from '../../img/blog-4.jpg';
+import frontend from '../../img/hub/frontendd.jpg';
+import backend from '../../img/hub/backend.jpg';
+import ui from '../../img/hub/ui.jpg';
+import data from '../../img/hub/data.jpg';
+import embedded from '../../img/hub/embedded.jpg';
+import vr from '../../img/hub/vr.jpg';
+// import security from '../../img/hub/security.jpg';
+import networking from '../../img/hub/networking.jpg';
+import marketing from '../../img/hub/marketing.jpg';
+import cyber from '../../img/hub/cyber.jpg';
+// import blogImage4 from '../../img/blog-4.jpg';
 // import Team from "./components/team";
 import bg from '../../img/hub/cover.jpg';
 
@@ -32,7 +39,7 @@ const OurCourses = () => {
                 <div className="row">
                   <Works
                     title="FRONTEND DEVELOPMENT"
-                    image={blogImage1}
+                    image={frontend}
                     name="WEB DEVELOPMENT"
                     description="A complete guide to frontend web application
 development technologies and their
@@ -40,7 +47,7 @@ practical usage."
                   />
                   <Works
                     title="BACKEND DEVELOPMENT"
-                    image={blogImage2}
+                    image={backend}
                     name="WEB DEVELOPMENT"
                     description="Learn how to develop the persistent layer of
 any application using popular backends
@@ -48,14 +55,14 @@ technologies."
                   />
                   <Works
                     title="UI/UX"
-                    image={blogImage3}
+                    image={ui}
                     name="PRODUCT DESIGN"
                     description="An in-depth course on graphics, User
 Interface and Experience design and product design."
                   />
                   <Works
                     title="EMBEDDED SYSTEMS (ARDUINO)"
-                    image={blogImage2}
+                    image={embedded}
                     name="IOT"
                     description="Learn a system of interrelated computing
 devices, mechanical and digital machines,
@@ -63,7 +70,7 @@ objects, animals or people that are provided.."
                   />
                   <Works
                     title="DATA ANALYSIS"
-                    image={blogImage3}
+                    image={data}
                     name="DATA SCIENCE"
                     description="Learn data management, visualization,
 analysis. And learn how to inspect, clean, transform, and
@@ -72,7 +79,7 @@ extrapolation"
                   />
                   <Works
                     title="VR/AR"
-                    image={blogImage3}
+                    image={vr}
                     name="VIRTUAL REALITY"
                     description="A guide on 3D development with blender,
 with an introduction to unity engine."
@@ -80,7 +87,7 @@ with an introduction to unity engine."
                   <Works
                     title="NETWORKING FUNDAMENTALS
 & WIRELESS NETWORKING"
-                    image={blogImage3}
+                    image={networking}
                     name="NETWORKING"
                     description="Connecting two or more computers with
 purpose to share data or technical
@@ -88,14 +95,14 @@ support."
                   />
                   <Works
                     title="CYBER SECURITY"
-                    image={blogImage3}
+                    image={cyber}
                     name="INTERNET SECURITY"
                     description="Learn the computer security or information
 technology security."
                   />
                   <Works
                     title="DIGITAL MARKETING"
-                    image={blogImage3}
+                    image={marketing}
                     name="MARKETING"
                     description="Together with our large partners like
 Facebook and Google, we have trained
@@ -108,12 +115,12 @@ over 5,000 people."
         </div>
       </section>
 
-      <section id="single-content" className="bg-white">
+      {/* <section id="single-content" className="bg-white">
         <div className="container">
           <div className="section-content blog-content">
-            <div className="row">
+            <div className="row"> */}
               {/* <!-- Single Content Holder --> */}
-              <div className="col-md-8 offset-md-2 mt-4">
+              {/* <div className="col-md-8 offset-md-2 mt-4">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <img
                   className="float-left"
@@ -145,12 +152,12 @@ over 5,000 people."
                   voluptate illum consectetur sapiente dolorem facilis, eum
                   nobis sequi eveniet assumenda vel voluptatem!
                 </p>
-              </div>
+              </div> */}
               {/* <!-- End of Contact Form Holder --> */}
-            </div>
+            {/* </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <Team image='blogImage4'/> */}
 

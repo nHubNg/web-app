@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 // import bg from '../../img/hub/cover.jpg';
-import logo from '../../img/hub/logo.png'
+import logo from '../../img/hub/logo.png';
 
 const Header = (props) => {
-    const navLinkStyle = ({ isActive }) => {
+  const navLinkStyle = ({ isActive }) => {
     return {
       fontWeight: isActive ? 'bold' : 'light',
     };
@@ -59,7 +59,7 @@ const Header = (props) => {
               to="/"
             >
               {/* <h3 className="font-weight-bolder mb-0">NHUB</h3> */}
-              <img src={logo} alt="" width='50px'/>
+              <img src={logo} alt="" width="50px" />
             </Link>
             <button
               className="navbar-toggler"
@@ -98,12 +98,20 @@ const Header = (props) => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink style={navLinkStyle} className="nav-link" to="/Programs">
+                  <NavLink
+                    style={navLinkStyle}
+                    className="nav-link"
+                    to="/Programs"
+                  >
                     Programs
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink style={navLinkStyle} className="nav-link" to="/CoWorkingSpace">
+                  <NavLink
+                    style={navLinkStyle}
+                    className="nav-link"
+                    to="/CoWorkingSpace"
+                  >
                     Co-Working Space
                   </NavLink>
                 </li>
@@ -118,23 +126,33 @@ const Header = (props) => {
                 </li>
 
                 <a className="btn btn-outline-primary btn-lg" href="/">
-             TAKE A TOUR ROUND THE HUB
+                  TAKE A TOUR ROUND THE HUB
                 </a>
 
-                <li className="nav-item">
+                {/* <NavLink
+                  style={navLinkStyle}
+                  className="nav-link"
+                  to="/Contact"
+                >
+                  <a className="nav-link" href="/">
+                    internship
+                  </a>
+                </NavLink> */}
+
+                {/* <li className="nav-item">
 
                   <Link id="side-search-open" className="nav-link" to="/">
 
                     <span className="lnr lnr-magnifier"></span>
                   </Link>
-                </li>
-                <li className="nav-item only-desktop">
+                </li> */}
+                {/* <li className="nav-item only-desktop">
 
                   <Link className="nav-link" id="side-nav-open" to="/">
 
                     <span className="lnr lnr-menu"></span>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

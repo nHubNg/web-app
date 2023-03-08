@@ -58,7 +58,7 @@ const Contact = () => {
                 <div className="col-md-3" data-aos="fade-up">
                     <span className="lnr lnr-location fs-40 py-4 d-block"></span>
                     <h5>LOCATION</h5>
-                    <p>Yogyakarta</p>
+                    <p>2nd Floor TAEN Business Complex Opposite former NITEL Office, Old Airport Junction, Jos, Plateau State, Nigeria.</p>
                 </div>
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="200">
                     <span className="lnr lnr-clock fs-40 py-4 d-block"></span>
@@ -68,12 +68,12 @@ const Contact = () => {
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="400">
                     <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
                     <h5>CALL US</h5>
-                    <p>123-45678</p>
+                    <p>+234 806 864 0710</p>
                 </div>
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
                     <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
                     <h5>EMAIL</h5>
-                    <p>company@gmail.com</p>
+                    <p>contact@nhubnigeria.org</p>
                 </div>
 
             </div>

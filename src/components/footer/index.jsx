@@ -5,7 +5,8 @@ const Footer = () => {
     <div className="footer-links">
          <div className="services">
          	<div className="align-items-center">
-         	<h4>TOP SERVICES</h4>	
+         	<h4>TOP SERVICES</h4>
+			 <a href='https://nhubinternship.onrender.com/' target='_blank' rel="noreferrer"><p>Internship</p></a>	
 			 <a href='/'><p>Mentorship</p></a>
 			 <a href='/'><p>Training</p></a>
 			 <a href='/'><p>Incubation</p></a>
@@ -35,16 +36,16 @@ const Footer = () => {
            
             <div className="col-lg-4 col-md-12">
             	<nav className="nav nav-mastfoot justify-content-center">
-	                <a className="nav-link" href="/">
+	                <a className="nav-link" href="https://web.facebook.com/nhubnigeria/">
 	                	<i className="fab fa-facebook-f"></i>
 	                </a>
-	                <a className="nav-link" href="/">
+	                <a className="nav-link" href="https://twitter.com/nhubnigeria">
 	                	<i className="fab fa-twitter"></i>
 	                </a>
-	                <a className="nav-link" href="/">
+	                <a className="nav-link" href="https://www.instagram.com/nhubnigeria/">
 	                	<i className="fab fa-instagram"></i>
 	                </a>
-	                <a className="nav-link" href="/">
+	                <a className="nav-link" href="https://www.linkedin.com/company/nhub/">
 	                	<i className="fab fa-linkedin"></i>
 	                </a>
 	            </nav>
