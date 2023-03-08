@@ -7,11 +7,12 @@ import blogImage2 from '../../img/blog-2.jpg';
 import blogImage3 from '../../img/blog-3.jpg';
 import blogImage4 from '../../img/blog-4.jpg';
 // import Team from "./components/team";
+import bg from '../../img/hub/cover.jpg';
 
 const OurCourses = () => {
   return (
     <>
-      <Header name="Our Courses" />
+      <Header name="Our Courses" bg={bg}/>
 
       <section id="blog" className="bg-grey">
         <div className="container">

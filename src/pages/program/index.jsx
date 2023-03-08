@@ -1,5 +1,6 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
+import bg from '../../img/hub/program.jpg';
 
 import FeatureSection from '../../components/featureSection';
 import Card from './component/card';
@@ -7,7 +8,7 @@ import Card from './component/card';
 const Program = () => {
   return (
     <div>
-      <Header name="Programs" />
+      <Header name="Programs" bg={bg}/>
 
       <section id="blog" className="bg-grey">
         <div className="container">

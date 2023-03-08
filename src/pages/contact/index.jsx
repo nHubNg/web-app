@@ -2,12 +2,13 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 
 import FeatureSection from "../../components/featureSection";
+import bg from '../../img/hub/contact.JPG';
 
 
 const Contact = () => {
     return ( <>
 
-        <Header name='Contact Us' />
+        <Header name='Contact Us' bg={bg}/>
 
 
         {/* <!-- Contact Form Section --> */}
@@ -34,9 +35,9 @@ const Contact = () => {
                             <div className="col-md-6 form-group">
                                 <input type="number" className="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone" />
                             </div>
-                            <div className="col-md-12 form-group">
+                            {/* <div className="col-md-12 form-group">
                                 <input type="text" className="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website" />
-                            </div>
+                            </div> */}
                             <div className="col-md-12 form-group">
                                 <textarea className="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
                             </div>

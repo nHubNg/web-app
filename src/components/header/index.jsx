@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import bg from '../../img/bg.jpg';
+// import bg from '../../img/hub/cover.jpg';
+import logo from '../../img/hub/logo.png'
 
 const Header = (props) => {
     const navLinkStyle = ({ isActive }) => {
@@ -57,7 +58,8 @@ const Header = (props) => {
               className="navbar-brand d-flex align-items-center text-white"
               to="/"
             >
-              <h3 className="font-weight-bolder mb-0">NHUB</h3>
+              {/* <h3 className="font-weight-bolder mb-0">NHUB</h3> */}
+              <img src={logo} alt="" width='50px'/>
             </Link>
             <button
               className="navbar-toggler"
@@ -140,7 +142,7 @@ const Header = (props) => {
         <div
           className="jumbotron jumbotron-single d-flex align-items-center"
           style={{
-            backgroundImage: `url(${bg})`,
+            backgroundImage: `url(${props.bg})`,
           }}
         >
           <div className="container text-center">

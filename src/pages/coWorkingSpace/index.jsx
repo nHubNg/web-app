@@ -2,11 +2,12 @@ import Header from '../../components/header';
 import Table from 'react-bootstrap/Table';
 import Footer from '../../components/footer';
 import FeatureSection from '../../components/featureSection';
+import bg from '../../img/hub/space.JPG';
 
 const CoWorkingSpace = () => {
   return (
     <>
-      <Header name="Co-Working Space" />
+      <Header name="Co-Working Space" bg={bg}/>
       <div className="container">
         <div className="title-wrap mb-5" data-aos="fade-up">
           <h2 className="section-title co-working-title">

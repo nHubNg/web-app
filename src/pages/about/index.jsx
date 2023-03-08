@@ -7,6 +7,7 @@ import responsive from '../../img/icons/animat-responsive.gif';
 import FeatureSection from '../../components/featureSection';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import bg from '../../img/hub/courses.JPG';
 
 const About = () => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const About = () => {
 
   return (
     <>
-      <Header name="About Our Organization" />
+      <Header name="About Our Organization" bg={bg}/>
       <section id="who-we-are" className="bg-white">
         <div className="container">
           <div className="section-content">
