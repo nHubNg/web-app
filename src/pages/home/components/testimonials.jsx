@@ -1,6 +1,6 @@
 // import testi from '../../../img/testi-1.jpg';
 
-const Testimonials = ({content, name, title, image}) => {
+const Testimonials = ({ content, name, title, image }) => {
   return (
     <>
       <div className="heading-section text-center">

@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import obj_triangle from '../../../img/obj_triangle.png';
+import logo from '../../../img/hub/Union.png';
 
 const HomeHeader = () => {
   const navLinkStyle = ({ isActive }) => {
@@ -13,12 +14,12 @@ const HomeHeader = () => {
       <div data-spy="scroll" data-target="#navbar" className="static-layout">
         <nav id="header-navbar" className="navbar navbar-expand-lg py-4">
           <div className="container">
-            <a
+          <Link
               className="navbar-brand d-flex align-items-center text-white"
-              href="/"
+              to="/"
             >
-              <h3 className="font-weight-bolder mb-0">NHUB</h3>
-            </a>
+              <img src={logo} alt="" width="70px" />
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -65,7 +66,11 @@ const HomeHeader = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink style={navLinkStyle} className="nav-link" to="/CoWorkingSpace">
+                  <NavLink
+                    style={navLinkStyle}
+                    className="nav-link"
+                    to="/CoWorkingSpace"
+                  >
                     Co-Working Space
                   </NavLink>
                 </li>
@@ -143,9 +148,7 @@ const HomeHeader = () => {
 
         <div className="jumbotron d-flex align-items-center">
           <div className="container text-center">
-            <h1 className="display-1 mb-4">
-              NHUB
-            </h1>
+            <h1 className="display-1 mb-4">NHUB</h1>
           </div>
           <div className="rectangle-1"></div>
           <div className="rectangle-2"></div>

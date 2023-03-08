@@ -9,11 +9,10 @@ const Section = () => {
           <div className="section-content">
             {/* <!-- Section Title --> */}
             <div className="title-wrap mb-5" data-aos="fade-up">
-              <h2 className="section-title">
-                  NHUB NIGERIA
-              </h2>
+              <h2 className="section-title">NHUB NIGERIA</h2>
               <p className="section-sub-title">
-              Highly driven by a desire to see Nigeria and Nigerians  placed on the global spotlight of emerging technologies.
+                Highly driven by a desire to see Nigeria and Nigerians placed on
+                the global spotlight of emerging technologies.
               </p>
             </div>
             {/* <!-- End of Section Title --> */}

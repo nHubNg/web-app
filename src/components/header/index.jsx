@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 // import bg from '../../img/hub/cover.jpg';
-import logo from '../../img/hub/logo.png';
+import logo from '../../img/hub/Union.png';
 
 const Header = (props) => {
   const navLinkStyle = ({ isActive }) => {
@@ -59,7 +59,7 @@ const Header = (props) => {
               to="/"
             >
               {/* <h3 className="font-weight-bolder mb-0">NHUB</h3> */}
-              <img src={logo} alt="" width="50px" />
+              <img src={logo} alt="" width="70px" />
             </Link>
             <button
               className="navbar-toggler"

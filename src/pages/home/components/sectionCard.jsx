@@ -14,12 +14,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-cog fs-40"></i>
+                  <i className="lnr lnr-sun fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Easy to Customize"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Sevo Coder"
+                  paragraph="Sevo Coder is a program aimed at training kids in primary and secondary schools on Software Development, Digital skills and Entrepreneurship."
                 />
               </div>
               <div
@@ -27,12 +26,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-frame-contract fs-40"></i>
+                  <i className="lnr lnr-hourglass fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Pixel Perfect"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Incubation And Entrepreneurship"
+                  paragraph="We train, and develop business concepts as well Startups to take their product development to the highest level."
                 />
               </div>
             </div>
@@ -44,12 +42,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-bubble fs-40"></i>
+                  <i className="lnr lnr-location fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Full Support"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Next Economy"
+                  paragraph="An Intervention program which has seen over 1000 young Nigerians trained for free, gainfully employed."
                 />
               </div>
 
@@ -58,12 +55,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-magic-wand fs-40"></i>
+                  <i className="lnr lnr-home fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Clean Design"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Co-working Space"
+                  paragraph="We offer free internet services, constant power supply and backup power supply to our clients so as to ensure a seamless and satisfactory experience."
                 />
               </div>
             </div>
@@ -75,12 +71,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-clock fs-40"></i>
+                  <i className="lnr lnr-rocket fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Ontime Project"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Innovation and Start Up Support"
+                  paragraph="Empowering start-ups with digital, technical and entrepreneurship skills that will enable them grow and sustain their businesses."
                 />
               </div>
 
@@ -89,12 +84,11 @@ const SectionCard = ({ heading, paragraph }) => {
                 data-aos="fade-up"
               >
                 <div className="my-4">
-                  <i className="lnr lnr-thumbs-up fs-40"></i>
+                  <i className="lnr lnr-diamond fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Built with SASS"
-                  paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod."
+                  heading="Private Mentorship and Training"
+                  paragraph="We have various curriculum with matching professionals, aimed to equip our students with practical skills in the emerging technology"
                 />
               </div>
             </div>

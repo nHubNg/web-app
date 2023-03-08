@@ -16,7 +16,7 @@ import bg from '../../img/hub/cover.jpg';
 const OurCourses = () => {
   return (
     <>
-      <Header name="Our Courses" bg={bg}/>
+      <Header name="Our Courses" bg={bg} />
 
       <section id="blog" className="bg-grey">
         <div className="container">

@@ -1,8 +1,8 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import bg from '../../img/hub/program.jpg';
-import sevo from '../../img/hub/sevo.jpg'
-import next from '../../img/hub/next.JPG'
+import sevo from '../../img/hub/sevo.jpg';
+import next from '../../img/hub/next.JPG';
 
 import FeatureSection from '../../components/featureSection';
 import Card from './component/card';
@@ -10,7 +10,7 @@ import Card from './component/card';
 const Program = () => {
   return (
     <div>
-      <Header name="Programs" bg={bg}/>
+      <Header name="Programs" bg={bg} />
 
       <section id="blog" className="bg-grey">
         <div className="container">
@@ -46,7 +46,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-        image={sevo}
+          image={sevo}
           title="SEVO CODER"
           paragraph="The mission here is to “catch them young”. This program is targeted at kids within the age range of six (6) and sixteen (16) years, with the aim of exposing them to different emerging technologies, having them learn and ultimately choose the path that best suit them.
 
@@ -56,7 +56,7 @@ const Program = () => {
 
       <div className="card-2">
         <Card
-        image={sevo}
+          image={sevo}
           title="INCUBATION AND ENTREPRENEURSHIP"
           paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
@@ -71,7 +71,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-        image={next}
+          image={next}
           title="NEXT ECONOMY"
           paragraph="This is an Intervention program initiated by the Dutch
                   Government targeted towards African Countries. It has seen

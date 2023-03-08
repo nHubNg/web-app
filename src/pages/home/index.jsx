@@ -8,9 +8,9 @@ import Testimonials from './components/testimonials';
 // import client from '../../img/client.png';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import cover from '../../img/hub/cover.jpg'
-import courses from '../../img/hub/courses.JPG'
-import contact from '../../img/hub/contact.JPG'
+import cover from '../../img/hub/cover.jpg';
+import courses from '../../img/hub/courses.JPG';
+import contact from '../../img/hub/contact.JPG';
 // import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -145,7 +145,7 @@ const Home = () => {
                 content="
                 NHUB Nigeria has exposed me to so many knowledge and possibilities I have never imagined or learnt before now"
                 name="Sodiqi"
-                title='Backend Developer'
+                title="Backend Developer"
                 image={cover}
               />
             </Carousel.Caption>
@@ -158,7 +158,7 @@ const Home = () => {
                 content="
                 Thanks to NHUB, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school."
                 name="Chinedu"
-                title='Intern'
+                title="Intern"
                 image={courses}
               />
             </Carousel.Caption>
@@ -171,7 +171,7 @@ const Home = () => {
                 content="
                 A very conducive and inspiring community to grow together and work as a team."
                 name="Cletus"
-                title='UI/UX Designer'
+                title="UI/UX Designer"
                 image={contact}
               />
             </Carousel.Caption>
@@ -186,52 +186,7 @@ const Home = () => {
         style={{
           backgroundImage: `url(${bg})`,
         }}
-      >
-        {/* <div className="container">
-          <div className="section-content" data-aos="fade-up">
-            <div className="row ">
-              <div className="col-md-12">
-                {/* <!-- Section Title --> */}
-                {/* <div className="title-wrap mb-5">
-                  <h2>
-                    Who love to <span> work</span> with us
-                  </h2>
-                </div> */}
-                {/* <!-- End of Section Title --> */}
-              {/* </div> */}
-              {/* <!-- Client Holder --> */}
-              {/* <div className="col-md-12 client-holder"> */}
-                {/* <div className="client-slider">
-                  <OwlCarousel
-                    className="slider-items owl-carousel"
-                    {...options}
-                  >
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                    <div className="client-item">
-                      <img className="img-responsive" src={client} alt=" " />
-                    </div>
-                  </OwlCarousel>
-                </div> */}
-                {/* <!-- End of Client Holder --> */}
-              {/* </div> */}
-            {/* </div> */}
-          {/* // </div> */}
-        {/* </div> */} 
-      </section>
+      ></section>
       {/* <!-- End of Client Section -->	 */}
 
       <section id="reservation" className="bg-white section-content">
@@ -274,15 +229,7 @@ const Home = () => {
                         placeholder="Phone"
                       />
                     </div>
-                    <div className="col-md-12 form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        id="websiteUrl"
-                        name="websiteUrl"
-                        placeholder="Website"
-                      />
-                    </div>
+
                     <div className="col-md-12 form-group">
                       <textarea
                         className="form-control"
@@ -307,33 +254,20 @@ const Home = () => {
             </div>
             <div className="col-lg-4 offset-lg-1" data-aos="fade-left">
               <h2 className="mb-4">
-                Best solution to create any website. Pay once.
+                We've got you covered with courses on Emerging Technologies
               </h2>
               <p className="mb-4">
-                I am text block. Click edit button to change this text. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                We have in place a comprehensive plan to equip you with
+                practical skills and help you gain proficiency in various areas
+                of ICT. Whether you are completely new to the world of ICT, or
+                need to add an extra skill to your profile, we have tailor-made
+                training services for all categories of learners.
+                <br /> <br />
+                Our training programs cover, but are not limited to Website
+                design and development (in various languages and stacks), Mobile
+                App development, Robotics, Augmented & Virtual Reality, Data
+                Science and AI, Graphics Design and 3D Animation.
               </p>
-
-              <ul className="list-inline py-2">
-                <li className="list-inline-item text-center">
-                  <span className="lnr fs-40 lnr-rocket"></span>
-                  <p>Fast delivery</p>
-                </li>
-                <li className="list-inline-item text-center">
-                  <span className="lnr fs-40 lnr-magic-wand"></span>
-                  <p>Awesome design</p>
-                </li>
-                <li className="list-inline-item text-center">
-                  <span className="lnr fs-40 lnr-cog"></span>
-                  <p>Easy to customize</p>
-                </li>
-              </ul>
-
-              <a href="/" className="btn btn-link p-0">
-                <span>PURCHASE NOW</span>
-                <span className="lnr lnr-arrow-right"></span>
-              </a>
             </div>
           </div>
         </div>
