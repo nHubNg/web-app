@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="200">
                     <span className="lnr lnr-clock fs-40 py-4 d-block"></span>
                     <h5>WORKING TIME</h5>
-                    <p>Monday - Saturday</p>
+                    <p>Monday - Friday</p>
                 </div>
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="400">
                     <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
@@ -73,7 +73,7 @@ const Contact = () => {
                 <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
                     <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
                     <h5>EMAIL</h5>
-                    <p>contact@nhubnigeria.org</p>
+                    <p>nhubng@gmail.com</p>
                 </div>
 
             </div>

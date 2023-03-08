@@ -8,6 +8,9 @@ import Testimonials from './components/testimonials';
 // import client from '../../img/client.png';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import cover from '../../img/hub/cover.jpg'
+import courses from '../../img/hub/courses.JPG'
+import contact from '../../img/hub/contact.JPG'
 // import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -139,12 +142,11 @@ const Home = () => {
             <img src={bgWhite} id="whiteBG" alt="" />
             <Carousel.Caption id="testi-text">
               <Testimonials
-                content={
-                  <React.Fragment>
-                    <b>NHUB</b> is best theme is used so far.
-                    <br /> Its ideal for guys without coding knowledge like me!{' '}
-                  </React.Fragment>
-                }
+                content="
+                NHUB Nigeria has exposed me to so many knowledge and possibilities I have never imagined or learnt before now"
+                name="Sodiqi"
+                title='Backend Developer'
+                image={cover}
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -154,9 +156,10 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Adipisci non doloribus ut, alias doloremque
-                perspiciatis. Lorem ipsum dolor sit"
+                Thanks to NHUB, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school."
+                name="Chinedu"
+                title='Intern'
+                image={courses}
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -166,9 +169,10 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Adipisci non doloribus ut, alias doloremque
-                    perspiciatis. Lorem ipsum dolor sit"
+                A very conducive and inspiring community to grow together and work as a team."
+                name="Cletus"
+                title='UI/UX Designer'
+                image={contact}
               />
             </Carousel.Caption>
           </Carousel.Item>

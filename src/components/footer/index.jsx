@@ -36,16 +36,20 @@ const Footer = () => {
            
             <div className="col-lg-4 col-md-12">
             	<nav className="nav nav-mastfoot justify-content-center">
-	                <a className="nav-link" href="https://web.facebook.com/nhubnigeria/">
+	                <a className="nav-link" href="https://web.facebook.com/nHubNigeria" target="_blank"
+                  rel="noreferrer">
 	                	<i className="fab fa-facebook-f"></i>
 	                </a>
-	                <a className="nav-link" href="https://twitter.com/nhubnigeria">
+	                <a className="nav-link" href="https://twitter.com/nHubNG" target="_blank"
+                  rel="noreferrer">
 	                	<i className="fab fa-twitter"></i>
 	                </a>
-	                <a className="nav-link" href="https://www.instagram.com/nhubnigeria/">
+	                <a className="nav-link" href="https://www.instagram.com/nhub_ng/" target="_blank"
+                  rel="noreferrer">
 	                	<i className="fab fa-instagram"></i>
 	                </a>
-	                <a className="nav-link" href="https://www.linkedin.com/company/nhub/">
+	                <a className="nav-link" href="https://www.linkedin.com/company/nhub/" target="_blank"
+                  rel="noreferrer">
 	                	<i className="fab fa-linkedin"></i>
 	                </a>
 	            </nav>
