@@ -18,7 +18,7 @@ const Contact = () => {
             {/* <!-- Section Title --> */}
             <div className="title-wrap" data-aos="fade-up">
                 <h2 className="section-title">Get In Touch</h2>
-                <p className="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br /> pharetra augue. Donec id elit non mi.</p>
+                <p className="section-sub-title">Send us a mail and tell us how we can serve you better.</p>
             </div>
             {/* <!-- End of Section Title --> */}
             <div className="row">

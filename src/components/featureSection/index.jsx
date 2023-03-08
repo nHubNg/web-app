@@ -1,8 +1,9 @@
-import bg from '../../img/bg.jpg';
+import bg from '../../img/hub/internshipp.JPG';
 
 const FeatureSection = () => {
-    return ( <>
-        <section
+  return (
+    <>
+      <section
         id="cta"
         className="bg-fixed overlay"
         style={{
@@ -13,22 +14,26 @@ const FeatureSection = () => {
           <div className="section-content" data-aos="fade-up">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2 className="mb-2">
-                  Make a beautiful website, or million of them
-                </h2>
+                <h2 className="mb-2">Internship Program</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam, veritatis qui eligendi delectus quia fuga!
+                  Students seeking to participate in the internship program of
+                  NHUB Foundation can click the button bellow to apply.
                 </p>
-                <a className="btn btn-outline-primary btn-lg" href="/">
-                  FEATURES
+                <a
+                  className="btn btn-outline-primary btn-lg"
+                  href="https://nhubinternship.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  APPLY FOR INTERNSHIP
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-    </> );
-}
- 
+    </>
+  );
+};
+
 export default FeatureSection;
