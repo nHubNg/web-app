@@ -1,6 +1,8 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import bg from '../../img/hub/program.jpg';
+import sevo from '../../img/hub/sevo.jpg'
+import next from '../../img/hub/next.JPG'
 
 import FeatureSection from '../../components/featureSection';
 import Card from './component/card';
@@ -29,7 +31,7 @@ const Program = () => {
                 training infrastructure with application to small businesses.
                 Outsourcing is also one of the services we provide. We outsource
                 talent both locally and internationally. We supply hardware to
-                various instit
+                various institutions
               </p>
             </div>
           </div>
@@ -44,24 +46,18 @@ const Program = () => {
 
       <div className="card-1">
         <Card
+        image={sevo}
           title="SEVO CODER"
           paragraph="This is a Training Program created for children in Secondary
-                  schools and Colleges to aquire Digital and Entrepreneurship
-                  Skills. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit. At quisquam voluptatum, ad officiis possimus laudantium
-                  laboriosam itaque eius vel odio accusantium explicabo incidunt
-                  similique ratione, impedit, eveniet adipisci maiores
-                  repudiandae. Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Repellat deleniti omnis, quibusdam tempore
-                  aperiam fugiat? Laboriosam, quam commodi temporibus ratione
-                  assumenda dicta quasi accusantium sapiente culpa quos
-                  molestias obcaecati doloremque."
+                  schools and Colleges to acquire Digital and Entrepreneurship
+                  Skills. Usually takes place during the summer, and the participants get to explore various tech environments and acquire priceless knowledge from their various mentors."
         />
       </div>
 
       <div className="card-2">
         <Card
-          title="INCUBATION AND ENTERPRENEURSHIP"
+        image={sevo}
+          title="INCUBATION AND ENTREPRENEURSHIP"
           paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
                   take their product development to the highest level. we also
@@ -69,33 +65,19 @@ const Program = () => {
                   training, business model development, Branding, Digital
                   Marketing, software development, and application support
                   giving extra attention and deadline consideration to deliver
-                  high standards of quality. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Dolores distinctio non mollitia
-                  optio maxime eaque, voluptas suscipit quod cupiditate earum
-                  nemo voluptatum at soluta, ad cumque ut inventore eum. At.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                  obcaecati commodi fugit quae quibusdam nobis corporis
-                  laudantium alias quam, tenetur laboriosam earum ut sunt
-                  distinctio ipsam. Pariatur laudantium quis autem!"
+                  high standards of quality."
         />
       </div>
 
       <div className="card-1">
         <Card
+        image={next}
           title="NEXT ECONOMY"
           paragraph="This is an Intervention program initiated by the Dutch
                   Government targeted towards African Countries. It has seen
                   over 1000 young Nigerians trained for free, gainfully
                   employed, and supported with funds to start as well as scale
-                  their businesses and employ others. Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit. At quisquam voluptatum, ad
-                  officiis possimus laudantium laboriosam itaque eius vel odio
-                  accusantium explicabo incidunt similique ratione, impedit,
-                  eveniet adipisci maiores repudiandae. Lorem ipsum dolor, sit
-                  amet consectetur adipisicing elit. Repellat deleniti omnis,
-                  quibusdam tempore aperiam fugiat? Laboriosam, quam commodi
-                  temporibus ratione assumenda dicta quasi accusantium sapiente
-                  culpa quos molestias obcaecati doloremque."
+                  their businesses and employ others."
         />
       </div>
 

@@ -1,6 +1,6 @@
-import blogImage3 from '../../../img/blog-4.jpg';
+// import blogImage3 from '../../../img/blog-4.jpg';
 
-const Card = ({ paragraph, title }) => {
+const Card = ({ paragraph, title, image }) => {
   return (
     <>
       <div className="individual-card">
@@ -8,8 +8,8 @@ const Card = ({ paragraph, title }) => {
         <div className="">
           <h4>{title}</h4>
           <div className="cards">
-            <img className="card-image" width="320px" src={blogImage3} alt="" />
-            <p>{paragraph}</p>
+            <img className="card-image" src={image} alt="" width='500px'  />
+            <p className="mt-4">{paragraph}</p>
           </div>
         </div>
         {/* <!-- End of Contact Form Holder --> */}

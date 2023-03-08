@@ -2,11 +2,12 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 // import blogImage4 from '../../img/blog-4.jpg';
 import FeatureSection from '../../components/featureSection';
+import bg from '../../img/hub/outsorcing.jpg'
 
 const OutSourcing = () => {
   return (
     <>
-      <Header name="OutSourcing Programs" />
+      <Header name="OutSourcing Programs" bg={bg}/>
 
       {/* <!-- Contact Form Section --> */}
       <section id="single-content" className="bg-white">
