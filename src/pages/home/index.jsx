@@ -5,12 +5,13 @@ import bg from '../../img/hub/backk.JPG';
 import profileMockup from '../../img/hub/wire.jpg';
 import bgWhite from '../../img/bg-white.jpg';
 import Testimonials from './components/testimonials';
-// import client from '../../img/client.png';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import cover from '../../img/hub/cover.jpg';
+import Msad from '../../img/hub/Msad.jpeg';
+import des from '../../img/hub/dess.JPG';
+import backk from '../../img/hub/backk.JPG';
+import terrence from '../../img/hub/Terrence.png';
 import courses from '../../img/hub/courses.JPG';
-import contact from '../../img/hub/contact.JPG';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import FeatureSection from '../../components/featureSection';
@@ -83,10 +84,10 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                nHub Nigeria has exposed me to so many knowledge and possibilities I have never imagined or learnt before now"
-                name="Sodiqi"
+                nHub Nigeria has exposed me to so many knowledge, possibilities and opportunities I have never imagined or learnt before now"
+                name="Sadiq"
                 title="Backend Developer"
-                image={cover}
+                image={Msad}
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -96,10 +97,10 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                Thanks to nHub, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school."
-                name="Chinedu"
-                title="Intern"
-                image={courses}
+                I have been able to grow as a developer and also connect with like minds and developers during my stay at nHub."
+                name="Desmond"
+                title="Frontend Developer"
+                image={des}
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -110,9 +111,35 @@ const Home = () => {
               <Testimonials
                 content="
                 A very conducive and inspiring community to grow together and work as a team."
-                name="Cletus"
+                name="Terrence"
                 title="UI/UX Designer"
-                image={contact}
+                image={terrence}
+              />
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={bgWhite} id="whiteBG" alt="" />
+            <Carousel.Caption id="testi-text">
+              <Testimonials
+                content="
+                An organization which provides a comfortable learning environment. Quality mentorship and user friendly curriculum."
+                name="Faith"
+                title="Private Student"
+                image={courses}
+              />
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={bgWhite} id="whiteBG" alt="" />
+            <Carousel.Caption id="testi-text">
+              <Testimonials
+                content="
+                Thanks to nHub, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school"
+                name="Ibrahim"
+                title="Intern"
+                image={backk}
               />
             </Carousel.Caption>
           </Carousel.Item>
