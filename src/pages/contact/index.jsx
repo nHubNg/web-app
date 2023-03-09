@@ -92,7 +92,7 @@ const Contact = () => {
                 <span className="lnr lnr-location fs-40 py-4 d-block"></span>
                 <h5>LOCATION</h5>
                 <p>
-                  2nd Floor TAEN Business Complex Opposite former NITEL Office,
+                  3rd Floor TAEN Business Complex Opposite former NITEL Office,
                   Old Airport Junction, Jos, Plateau State, Nigeria.
                 </p>
               </div>
@@ -109,7 +109,7 @@ const Contact = () => {
               <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
                 <span className="lnr lnr-phone fs-40 py-4 d-block"></span>
                 <h5>EMAIL</h5>
-                <p>nhubng@gmail.com</p>
+                <p>info@nhubnigeria.ng</p>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const FeatureSection = () => {
                 <h2 className="mb-2">Internship Program</h2>
                 <p>
                   Students seeking to participate in the internship program of
-                  NHUB Foundation can click the button bellow to apply.
+                  nHub Foundation can click the button bellow to apply.
                 </p>
                 <a
                   className="btn btn-outline-primary btn-lg"

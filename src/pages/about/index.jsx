@@ -20,7 +20,7 @@ const About = () => {
           <div className="section-content">
             <div className="title-wrap" data-aos="fade-up">
               <h2 className="section-title">
-                NHUB NIGERIA STARTUP INNOVATION COMMUNITY
+                nHub NIGERIA STARTUP INNOVATION COMMUNITY
               </h2>
               <p className="section-sub-title">
                 nHub plays a leadership role in nurturing dialogue,

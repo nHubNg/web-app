@@ -47,10 +47,10 @@ const Program = () => {
       <div className="card-1">
         <Card
           image={sevo}
-          title="SEVO CODER"
+          title="SEVOCODER"
           paragraph="The mission here is to “catch them young”. This program is targeted at kids within the age range of six (6) and sixteen (16) years, with the aim of exposing them to different emerging technologies, having them learn and ultimately choose the path that best suit them.
 
-          The major role SEVO CODER play in the upbringing of young children is that it prepares them for the future of work which is based on technology, and gives them a fair fighting chance against their counterparts all over the world."
+          The major role SEVOCODER play in the upbringing of young children is that it prepares them for the future of work which is based on technology, and gives them a fair fighting chance against their counterparts all over the world."
         />
       </div>
 

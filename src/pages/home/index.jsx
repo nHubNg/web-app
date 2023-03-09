@@ -83,7 +83,7 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                NHUB Nigeria has exposed me to so many knowledge and possibilities I have never imagined or learnt before now"
+                nHub Nigeria has exposed me to so many knowledge and possibilities I have never imagined or learnt before now"
                 name="Sodiqi"
                 title="Backend Developer"
                 image={cover}
@@ -96,7 +96,7 @@ const Home = () => {
             <Carousel.Caption id="testi-text">
               <Testimonials
                 content="
-                Thanks to NHUB, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school."
+                Thanks to nHub, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school."
                 name="Chinedu"
                 title="Intern"
                 image={courses}

@@ -6,6 +6,8 @@ import frontend from '../../img/hub/frontendd.jpg';
 import backend from '../../img/hub/backend.jpg';
 import ui from '../../img/hub/ui.jpg';
 import data from '../../img/hub/data.jpg';
+import science from '../../img/hub/science.jpg';
+import mobile from '../../img/hub/mobile.jpg';
 import embedded from '../../img/hub/embedded.jpg';
 import vr from '../../img/blog-2.jpg';
 import networking from '../../img/hub/networking.jpg';
@@ -23,10 +25,10 @@ const OurCourses = () => {
           <div className="section-content">
             <div className="title-wrap mb-5" data-aos="fade-up">
               <h2 className="section-title">
-                NHUB <b>offers</b>
+                nHUB <b>offers</b>
               </h2>
               <p className="section-sub-title">
-                Here's a list of courses offered in NHUB Nigeria
+                Here's a list of courses offered in nHUB Nigeria
               </p>
             </div>
             <div className="row">
@@ -57,21 +59,33 @@ technologies."
 Interface and Experience design and product design."
                   />
                   <Works
+                    title="MOBILE DEVELOPMENT"
+                    image={mobile}
+                    name="FLUTTER"
+                    description="Learn how to develop mobile applications for both android and iOS devices using flutter."
+                  />
+                  <Works
                     title="EMBEDDED SYSTEMS (ARDUINO)"
                     image={embedded}
                     name="IOT"
                     description="Learn a system of interrelated computing
 devices, mechanical and digital machines,
-objects, animals or people that are provided.."
+objects, animals or people that are provided."
                   />
                   <Works
                     title="DATA ANALYSIS"
                     image={data}
-                    name="DATA SCIENCE"
-                    description="Learn data management, visualization,
-analysis. And learn how to inspect, clean, transform, and
+                    name="DATA"
+                    description="Learn how to inspect, clean, transform, and
 model data for useful information
 extrapolation"
+                  />
+                  <Works
+                    title="DATA SCIENCE"
+                    image={science}
+                    name="DATA"
+                    description="Learn data management, visualization,
+analysis."
                   />
                   <Works
                     title="VR/AR"

@@ -94,7 +94,7 @@ const HomeHeader = () => {
 
         <div className="jumbotron d-flex align-items-center justify-content-center">
           <div className="container text-center">
-            <h1 className="display-1 mb-4">NHUB</h1>
+            <h1 className="display-1 mb-4">nHub</h1>
           </div>
           <div className="rectangle-1"></div>
           <div className="rectangle-2"></div>
