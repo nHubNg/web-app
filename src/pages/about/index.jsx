@@ -4,6 +4,9 @@ import Card from './components/card';
 import cover from '../../img/hub/cover.jpg';
 import sam from '../../img/hub/sam.jpg';
 import bash from '../../img/hub/bash.jpg';
+import ahmed from '../../img/hub/ahmed.jpg';
+import jere from '../../img/hub/jere.jpg';
+import ade from '../../img/hub/ife.jpeg';
 import theodore from '../../img/hub/theodore.jpeg';
 import nathan from '../../img/hub/nathan.jpeg';
 import Msad from '../../img/hub/Msad.jpeg';
@@ -12,14 +15,14 @@ import marvel from '../../img/hub/marvel.jpeg';
 import wakzin from '../../img/hub/wakzin.JPG';
 import terrence from '../../img/hub/Terrence.png';
 import FeatureSection from '../../components/featureSection';
-import AOS from 'aos';
-import { useEffect } from 'react';
+// import AOS from 'aos';
+// import { useEffect } from 'react';
 import bg from '../../img/hub/courses.JPG';
 
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <>
@@ -131,12 +134,12 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image={cover}
-                  heading="Sodiqi"
-                  description="Manager"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
+                  image={ahmed}
+                  heading="Yusuf Ahmed"
+                  description="Brand Manager"
+                  twitter="https://twitter.com/yusufahmedng"
+                  instagram="https://www.instagram.com/yusufahmedng/"
+                  linkedIn="https://www.linkedin.com/in/yusufahmedng/"
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6  --> */}
@@ -173,9 +176,9 @@ const About = () => {
                   image={terrence}
                   heading="Terrence Eze"
                   description="UI/UX Developer"
-                  twitter="https://twitter.com/ImpactBash"
-                  instagram="https://www.instagram.com/impactbash/"
-                  linkedIn="https://www.linkedin.com/in/bashirsheidu/"
+                  twitter="https://twitter.com/jstdika"
+                  instagram="https://www.instagram.com/_terrenceeze/"
+                  linkedIn="https://www.linkedin.com/in/terrence-eze-075466186/"
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6 mt-4  --> */}
@@ -185,12 +188,12 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                image={wakzin}
+                  image={wakzin}
                   heading="Wakzin Gani"
                   description="AR/VR Developer"
-                  twitter=""
-                  instagram="https://www.instagram.com/pk_doppelganger/"
-                  linkedIn="https://www.linkedin.com/in/pankyes-nathan-h-5b2b03123/"
+                  twitter="https://twitter.com/gani_wakzin?t=17H0bKulvB859uZqDdQ3Rg&s=09"
+                  instagram="https://www.instagram.com/gani_wakzin/"
+                  linkedIn="https://www.linkedin.com/in/wakzin-gani-18365b1b7/"
                 />
               </div>
               <div
@@ -217,7 +220,7 @@ const About = () => {
                   heading="Stephen Paul"
                   description="Networks & CyberSec"
                   twitter="https://twitter.com/lohtis"
-                  instagram="https://www.instagram.com/bizzlekumben/"
+                  instagram=""
                   linkedIn="https://www.linkedin.com/in/marvel-tisloh-190891ab"
                 />
               </div>
@@ -227,14 +230,29 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image={cover}
-                  heading="Jeremiah Oluranti"
+                  image={jere}
+                  heading="Jeremiah Oluranti Faluyi"
                   description="FullStack Developer"
-                  twitter=""
+                  twitter="https://twitter.com/_oluranti"
                   instagram=""
-                  linkedIn=""
+                  linkedIn="https://www.linkedin.com/in/jeremiah-faluyi-009b85206/"
                 />
               </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={ade}
+                  heading="Adeife Olugunna"
+                  description="Data Analyst"
+                  twitter="https://twitter.com/AdeifeEffective"
+                  instagram="https://www.instagram.com/ade_effective/"
+                  linkedIn="https://www.linkedin.com/in/olugunnaadeife/"
+                />
+              </div>
+
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
             {/* <!-- /.row --> */}
