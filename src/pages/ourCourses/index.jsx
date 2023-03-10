@@ -59,7 +59,7 @@ technologies."
 Interface and Experience design and product design."
                   />
                   <Works
-                    title="MOBILE DEVELOPMENT"
+                    title="MOBILE APP DEVELOPMENT"
                     image={mobile}
                     name="FLUTTER"
                     description="Learn how to develop mobile applications for both android and iOS devices using flutter."
