@@ -6,7 +6,7 @@ import frontend from '../../img/hub/frontendd.jpg';
 import backend from '../../img/hub/backend.jpg';
 import ui from '../../img/hub/ui.jpg';
 import data from '../../img/hub/data.jpg';
-import science from '../../img/hub/science.jpg';
+import science from '../../img/hub/scienc.jpg';
 import mobile from '../../img/hub/mobile.jpg';
 import embedded from '../../img/hub/embedded.jpg';
 import vr from '../../img/blog-2.jpg';

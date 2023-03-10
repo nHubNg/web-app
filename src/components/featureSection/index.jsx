@@ -14,10 +14,22 @@ const FeatureSection = () => {
           <div className="section-content" data-aos="fade-up">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2 className="mb-2">Internship Program</h2>
+                <h2 className="mb-2">nHub FOUNDATION</h2>
+                <p>Visit nHub foundation by clicking the button below.</p>
+                <a
+                  className="btn btn-outline-primary btn-lg"
+                  href="https://nhubfoundation.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{textTransform: 'none'}}
+                >
+                  nHub FOUNDATION
+                </a>
+
+                <h2 className="mb-2 mt-5">Internship Program</h2>
                 <p>
                   Students seeking to participate in the internship program of
-                  nHub Foundation can click the button bellow to apply.
+                  nHub Foundation can click the button below to apply.
                 </p>
                 <a
                   className="btn btn-outline-primary btn-lg"
