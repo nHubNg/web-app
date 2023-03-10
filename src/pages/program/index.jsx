@@ -94,6 +94,33 @@ const Program = () => {
         />
       </div>
 
+      <section id="blog" className="bg-grey">
+        <div className="container">
+          <div className="section-content">
+            <div className="title-wrap mb-5" data-aos="fade-up">
+              <h2 className="section-title">
+                Our <b>Partners</b>
+              </h2>
+              <div style={{ textAlign: 'left' }}>
+                <p className="">
+                  Partnering with the Nigerian Airforce Jos, Plateau State Board
+                  of Internal Revenue and Kaduna Distribution Company we were
+                  able to design and build a state-of-the-art Mobile Application
+                  and Website for their Respective organizations.
+                </p>
+                <p>Other key partners include:</p>
+                <ul>
+                  <li>Fellowship Program</li>
+                  <li>Next Economy</li>
+                  <li>Industrial Training Fund</li>
+                  <li>MIcrosoft Office Suit Tailor Training</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* <!-- Features Section--> */}
 
       <FeatureSection />
