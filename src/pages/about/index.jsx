@@ -1,11 +1,11 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Card from './components/card';
-import cover from '../../img/hub/cover.jpg';
 import sam from '../../img/hub/sam.jpg';
 import bash from '../../img/hub/bash.jpg';
 import ahmed from '../../img/hub/ahmed.jpg';
 import jere from '../../img/hub/jere.jpg';
+import nanbam from '../../img/hub/nanbam.jpg';
 import ade from '../../img/hub/ife.jpeg';
 import theodore from '../../img/hub/theodore.jpeg';
 import nathan from '../../img/hub/nathan.jpeg';
@@ -120,7 +120,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image={cover}
+                  image={nanbam}
                   heading="Nanbam Kumben"
                   description="Lead Incubation"
                   twitter="https://twitter.com/Naan_bee"
@@ -151,7 +151,7 @@ const About = () => {
                 <p className="section-sub-title">
                   With our diverse collection of technology tracks, we have an
                   amazing teams of developers mentors and instructors to match
-                  each
+                  each.
                 </p>
               </div>
             </section>

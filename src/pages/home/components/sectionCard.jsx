@@ -29,7 +29,7 @@ const SectionCard = ({ heading, paragraph }) => {
                   <i className="lnr lnr-hourglass fs-40"></i>
                 </div>
                 <IndividualSection
-                  heading="Incubation And Entrepreneurship"
+                  heading="Incubation And Entrepreneur ship"
                   paragraph="We train, and develop business concepts as well Startups to take their product development to the highest level."
                 />
               </div>

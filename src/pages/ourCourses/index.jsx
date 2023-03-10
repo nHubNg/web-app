@@ -28,7 +28,7 @@ const OurCourses = () => {
                 nHUB <b>offers</b>
               </h2>
               <p className="section-sub-title">
-                Here's a list of courses offered in nHUB Nigeria
+                Here's a list of courses offered in nHub Nigeria
               </p>
             </div>
             <div className="row">
