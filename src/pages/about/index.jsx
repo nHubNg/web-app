@@ -2,6 +2,15 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Card from './components/card';
 import cover from '../../img/hub/cover.jpg';
+import sam from '../../img/hub/sam.jpg';
+import bash from '../../img/hub/bash.jpg';
+import theodore from '../../img/hub/theodore.jpeg';
+import nathan from '../../img/hub/nathan.jpeg';
+import Msad from '../../img/hub/Msad.jpeg';
+import hagos from '../../img/hub/hagos.jpeg';
+import marvel from '../../img/hub/marvel.jpeg';
+import wakzin from '../../img/hub/wakzin.JPG';
+import terrence from '../../img/hub/Terrence.png';
 import FeatureSection from '../../components/featureSection';
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -45,6 +54,97 @@ const About = () => {
             <section id="skills" className="bg-white">
               <div className="about-staff">
                 <h3>MEET OUR STAFF</h3>
+              </div>
+            </section>
+            <div className="row text-center">
+              <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
+                <Card
+                  image={theodore}
+                  heading="Theodore Longji"
+                  description="CEO"
+                  twitter="https://twitter.com/theodorelongji"
+                  instagram="https://www.instagram.com/theodorelongji/"
+                  linkedIn="https://www.linkedin.com/in/theodore-longji-0b791253/"
+                />
+              </div>
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <Card
+                  image={bash}
+                  heading="Bashir Shaidu"
+                  description="COO"
+                  twitter="https://twitter.com/ImpactBash"
+                  instagram="https://www.instagram.com/impactbash/"
+                  linkedIn="https://www.linkedin.com/in/bashirsheidu/"
+                />
+              </div>
+              {/* <!-- /.col-md-4 col-sm-6 mt-4  --> */}
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={nathan}
+                  heading="Nathan Pankyes"
+                  description="Legal"
+                  twitter=""
+                  instagram="https://www.instagram.com/pk_doppelganger/"
+                  linkedIn="https://www.linkedin.com/in/pankyes-nathan-h-5b2b03123/"
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={sam}
+                  heading="Samuel Adebayo"
+                  description="Head of Partnership"
+                  twitter="https://twitter.com/IamsamAdebayo"
+                  instagram="https://www.instagram.com/iamsamadebayo/"
+                  linkedIn=""
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={cover}
+                  heading="Nanbam Kumben"
+                  description="Lead Incubation"
+                  twitter="https://twitter.com/Naan_bee"
+                  instagram="https://www.instagram.com/bizzlekumben/"
+                  linkedIn=""
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={cover}
+                  heading="Sodiqi"
+                  description="Manager"
+                  twitter=""
+                  instagram=""
+                  linkedIn=""
+                />
+              </div>
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
+            </div>
+
+            <section id="skills" className="bg-white">
+              <div className="about-staff">
+                <h3>MEET OUR TEAM LEADS</h3>
                 <p className="section-sub-title">
                   With our diverse collection of technology tracks, we have an
                   amazing teams of developers mentors and instructors to match
@@ -55,12 +155,12 @@ const About = () => {
             <div className="row text-center">
               <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
                 <Card
-                  image={cover}
-                  heading="Osofia"
-                  description="CEO"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
+                  image={Msad}
+                  heading="Muhammad Sadiq Abdulrasheed"
+                  description="Backend Developer"
+                  twitter="https://twitter.com/dotMsadiq"
+                  instagram="https://www.instagram.com/dotmsadiq/"
+                  linkedIn="https://www.linkedin.com/in/dotmsadiq/"
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6  --> */}
@@ -70,12 +170,12 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <Card
-                  image={cover}
-                  heading="TuPac"
-                  description="Administrator"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
+                  image={terrence}
+                  heading="Terrence Eze"
+                  description="UI/UX Developer"
+                  twitter="https://twitter.com/ImpactBash"
+                  instagram="https://www.instagram.com/impactbash/"
+                  linkedIn="https://www.linkedin.com/in/bashirsheidu/"
                 />
               </div>
               {/* <!-- /.col-md-4 col-sm-6 mt-4  --> */}
@@ -85,12 +185,40 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image={cover}
-                  heading="Sodiqi"
-                  description="Manager"
+                image={wakzin}
+                  heading="Wakzin Gani"
+                  description="AR/VR Developer"
                   twitter=""
-                  instagram=""
-                  linkedIn=""
+                  instagram="https://www.instagram.com/pk_doppelganger/"
+                  linkedIn="https://www.linkedin.com/in/pankyes-nathan-h-5b2b03123/"
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={hagos}
+                  heading="Hagos Abdullah"
+                  description="Embedded Systems & IOT."
+                  twitter="https://twitter.com/AbdallahHagos"
+                  instagram="https://www.instagram.com/hagosabdallah/"
+                  linkedIn="https://www.linkedin.com/in/abdallah-hagos-176150194/"
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image={marvel}
+                  heading="Stephen Paul"
+                  description="Networks & CyberSec"
+                  twitter="https://twitter.com/lohtis"
+                  instagram="https://www.instagram.com/bizzlekumben/"
+                  linkedIn="https://www.linkedin.com/in/marvel-tisloh-190891ab"
                 />
               </div>
               <div
@@ -100,36 +228,8 @@ const About = () => {
               >
                 <Card
                   image={cover}
-                  heading="Sodiqi"
-                  description="Manager"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
-                />
-              </div>
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image={cover}
-                  heading="Sodiqi"
-                  description="Manager"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
-                />
-              </div>
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image={cover}
-                  heading="Sodiqi"
-                  description="Manager"
+                  heading="Jeremiah Oluranti"
+                  description="FullStack Developer"
                   twitter=""
                   instagram=""
                   linkedIn=""

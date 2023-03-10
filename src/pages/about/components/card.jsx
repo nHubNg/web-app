@@ -8,14 +8,15 @@ const Card = ({
 }) => {
   return (
     <>
-      <div className="profile">
+      <div className="profile" style={{height: '370px', width: '250px', padding: ''}}>
         <div
           style={{
             width: '100%',
-            height: '30%',
+            height: '60%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            // background: 'red'
           }}
         >
           <img
@@ -26,7 +27,8 @@ const Card = ({
             height="100%"
           />
         </div>
-        <div className="profile-text">
+        <div className="profile-text" style={{width: '100%',
+      height: '40%'}}>
           <h5 className="mt-4">{heading}</h5>
           <p>{description}</p>
           <nav className="nav nav-mastfoot justify-content-center">
