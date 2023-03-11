@@ -137,6 +137,31 @@ const OutSourcing = () => {
                   <p>SIDE QUEST</p>
                   <p>STEAM</p>
                 </div>
+
+                <div className="stack-1">
+                  <h3>
+                    <b>MOBILE DEVELOPMENT (FLUTTER)</b>
+                  </h3>
+                  <h4>LANGUAGES</h4>
+
+                  <p>DART</p>
+
+                  <h4>TOOLS</h4>
+
+                  <p>GITHUB</p>
+
+                  <h4>FRAMEWORKS</h4>
+                  <p>FLUTTER</p>
+                  <p>MATERIAL UI</p>
+                  <p>PROVIDER</p>
+                  <p>DJANGO REST FRAMEWORK</p>
+                  <p>GETX</p>
+
+                  <h4>DEPLOYMENT</h4>
+
+                  <p>PLAY STORE</p>
+                  <p>APP STORE</p>
+                </div>
               </div>
             </div>
           </div>
