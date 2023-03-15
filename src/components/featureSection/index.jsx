@@ -1,5 +1,3 @@
-// import bg from '../../img/hub/internshipp.JPG';
-
 const FeatureSection = () => {
   return (
     <>
@@ -21,7 +19,7 @@ const FeatureSection = () => {
                   href="https://nhubfoundation.org/"
                   target="_blank"
                   rel="noreferrer"
-                  style={{textTransform: 'none'}}
+                  style={{ textTransform: 'none' }}
                 >
                   nHub FOUNDATION
                 </a>

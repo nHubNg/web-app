@@ -8,7 +8,10 @@ const Card = ({
 }) => {
   return (
     <>
-      <div className="profile" style={{height: '370px', width: '250px', padding: ''}}>
+      <div
+        className="profile"
+        style={{ height: '370px', width: '250px', padding: '' }}
+      >
         <div
           style={{
             width: '100%',
@@ -27,8 +30,7 @@ const Card = ({
             height="100%"
           />
         </div>
-        <div className="profile-text" style={{width: '100%',
-      height: '40%'}}>
+        <div className="profile-text" style={{ width: '100%', height: '40%' }}>
           <h5 className="mt-4">{heading}</h5>
           <p>{description}</p>
           <nav className="nav nav-mastfoot justify-content-center">

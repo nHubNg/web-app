@@ -1,6 +1,6 @@
 import IndividualSection from './individualSection';
 
-const SectionCard = ({ heading, paragraph }) => {
+const SectionCard = () => {
   return (
     <div>
       <div className="row">

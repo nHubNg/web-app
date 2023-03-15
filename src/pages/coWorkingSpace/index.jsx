@@ -2,18 +2,14 @@ import Header from '../../components/header';
 import Table from 'react-bootstrap/Table';
 import Footer from '../../components/footer';
 import FeatureSection from '../../components/featureSection';
-// import bg from '../../img/hub/space.JPG';
-// import room1 from '../../img/hub/room1.JPG';
-// import room2 from '../../img/hub/room2.JPG';
-// import room3 from '../../img/hub/room3.JPG';
-// import room4 from '../../img/hub/room4.JPG';
-// import room5 from '../../img/hub/room5.JPG';
-// import room6 from '../../img/hub/room6.JPG';
 
 const CoWorkingSpace = () => {
   return (
     <>
-      <Header name="Co-Working Space" bg='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914808/space_e5kxax.jpg' />
+      <Header
+        name="Co-Working Space"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914808/space_e5kxax.jpg"
+      />
       <div className="container">
         <div className="title-wrap mb-5" data-aos="fade-up">
           <h2 className="section-title co-working-title">
@@ -110,7 +106,10 @@ const CoWorkingSpace = () => {
 
         <div className="row text-center mb-4">
           <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room7_tlv3gv.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room7_tlv3gv.jpg"
+              alt=""
+            />
           </div>
           {/* <!-- /.col-md-4 col-sm-6  --> */}
           <div
@@ -118,7 +117,10 @@ const CoWorkingSpace = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914770/room2_ozrfpx.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914770/room2_ozrfpx.jpg"
+              alt=""
+            />
           </div>
           {/* <!-- /.col-md-4 col-sm-6  --> */}
           <div
@@ -126,28 +128,40 @@ const CoWorkingSpace = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914775/room3_fynmmx.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914775/room3_fynmmx.jpg"
+              alt=""
+            />
           </div>
           <div
             className="col-md-4 col-sm-6 mt-4"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room4_bpxenx.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room4_bpxenx.jpg"
+              alt=""
+            />
           </div>
           <div
             className="col-md-4 col-sm-6 mt-4"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914788/room5_n1g2ib.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914788/room5_n1g2ib.jpg"
+              alt=""
+            />
           </div>
           <div
             className="col-md-4 col-sm-6 mt-4"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914777/room6_j7cdfy.jpg' alt="" />
+            <img
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914777/room6_j7cdfy.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>

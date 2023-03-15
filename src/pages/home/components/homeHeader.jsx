@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
 import obj_triangle from '../../../img/obj_triangle.png';
-// import logo from '../../../img/hub/Union.png';
 
 const HomeHeader = () => {
   const navLinkStyle = ({ isActive }) => {
@@ -18,7 +17,11 @@ const HomeHeader = () => {
               className="navbar-brand d-flex align-items-center text-white"
               to="/"
             >
-              <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/Union_tnkbgd.png' alt="" width="70px" />
+              <img
+                src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/Union_tnkbgd.png"
+                alt=""
+                width="70px"
+              />
             </Link>
             <button
               className="navbar-toggler"

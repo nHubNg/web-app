@@ -1,13 +1,14 @@
 import Footer from '../../components/footer';
 import Header from '../../components/header';
-// import blogImage4 from '../../img/blog-4.jpg';
 import FeatureSection from '../../components/featureSection';
-import bg from '../../img/hub/outsorcing.jpg';
 
 const OutSourcing = () => {
   return (
     <>
-      <Header name="OutSource Programs" bg={bg} />
+      <Header
+        name="OutSource Programs"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915495/outsorcing_lzzkyi.jpg"
+      />
 
       {/* <!-- Contact Form Section --> */}
       <section id="single-content" className="bg-white">
@@ -15,9 +16,8 @@ const OutSourcing = () => {
           <div className="section-content blog-content">
             <div className="row">
               {/* <!-- Single Content Holder --> */}
-              <div className="title-wrap" style={{padding: '15px'}}>
+              <div className="title-wrap" style={{ padding: '15px' }}>
                 <h4>EXECUTIVE SUMMARY</h4>
-                {/* <img className="float-left" width="320px" src={blogImage4} alt="" /> */}
                 <p>
                   nHub plays a leadership role in nurturing dialogue,
                   disseminating knowledge, and re-wiring the ecosystem through
