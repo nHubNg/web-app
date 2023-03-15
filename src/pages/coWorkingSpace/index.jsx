@@ -94,7 +94,7 @@ const CoWorkingSpace = () => {
 
         <div className="co-working-div">
           <h5>
-            We offer free internet services, constant power supply and backup
+            We offer fast and affordable internet services, constant power supply and backup
             power supply to our clients so as to ensure a seamless and
             satisfactory experience.
           </h5>

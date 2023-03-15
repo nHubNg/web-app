@@ -59,7 +59,7 @@ const SectionCard = () => {
                 </div>
                 <IndividualSection
                   heading="Co-working Space"
-                  paragraph="We offer free internet services, constant power supply and backup power supply to our clients so as to ensure a seamless and satisfactory experience."
+                  paragraph="We offer fast and affordable internet services, constant power supply and backup power supply to our clients so as to ensure a seamless and satisfactory experience."
                 />
               </div>
             </div>
