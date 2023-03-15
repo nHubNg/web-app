@@ -2,23 +2,23 @@ import FeatureSection from '../../components/featureSection';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Works from './components/works';
-import frontend from '../../img/hub/frontendd.jpg';
-import backend from '../../img/hub/backend.jpg';
-import ui from '../../img/hub/ui.jpg';
-import data from '../../img/hub/data.jpg';
-import science from '../../img/hub/scienc.jpg';
-import mobile from '../../img/hub/mobile.jpg';
-import embedded from '../../img/hub/embedded.jpg';
-import vr from '../../img/blog-2.jpg';
-import networking from '../../img/hub/networking.jpg';
-import marketing from '../../img/hub/marketing.jpg';
-import cyber from '../../img/hub/cyber.jpg';
-import bg from '../../img/hub/cover.jpg';
+// import frontend from '../../img/hub/frontendd.jpg';
+// import backend from '../../img/hub/backend.jpg';
+// import ui from '../../img/hub/ui.jpg';
+// import data from '../../img/hub/data.jpg';
+// import science from '../../img/hub/scienc.jpg';
+// import mobile from '../../img/hub/mobile.jpg';
+// import embedded from '../../img/hub/embedded.jpg';
+// import vr from '../../img/blog-2.jpg';
+// import networking from '../../img/hub/networking.jpg';
+// import marketing from '../../img/hub/marketing.jpg';
+// import cyber from '../../img/hub/cyber.jpg';
+// import bg from '../../img/hub/cover.jpg';
 
 const OurCourses = () => {
   return (
     <>
-      <Header name="Our Courses" bg={bg} />
+      <Header name="Our Courses" bg='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914599/cover_pfgyc1.jpg' />
 
       <section id="blog" className="bg-grey">
         <div className="container">
@@ -37,7 +37,7 @@ const OurCourses = () => {
                 <div className="row">
                   <Works
                     title="FRONTEND DEVELOPMENT"
-                    image={frontend}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678916505/Screenshot_from_2023-03-15_22-40-40_wjm7wx.png'
                     name="WEB DEVELOPMENT"
                     description="A complete guide to frontend web application
 development technologies and their
@@ -45,7 +45,7 @@ practical usage."
                   />
                   <Works
                     title="BACKEND DEVELOPMENT"
-                    image={backend}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914107/backend_hrdwfm.jpg'
                     name="WEB DEVELOPMENT"
                     description="Learn how to develop the persistent layer of
 any application using popular backends
@@ -53,20 +53,20 @@ technologies."
                   />
                   <Works
                     title="UI/UX"
-                    image={ui}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914853/ui_eqxx2j.jpg'
                     name="PRODUCT DESIGN"
                     description="An in-depth course on graphics, User
 Interface and Experience design and product design."
                   />
                   <Works
                     title="MOBILE APP DEVELOPMENT"
-                    image={mobile}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678915711/mobile_huo9a3.jpg'
                     name="FLUTTER"
                     description="Learn how to develop mobile applications for both android and iOS devices using flutter."
                   />
                   <Works
                     title="EMBEDDED SYSTEMS (ARDUINO)"
-                    image={embedded}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914386/embedded_l8100x.jpg'
                     name="IOT"
                     description="Learn a system of interrelated computing
 devices, mechanical and digital machines,
@@ -74,7 +74,7 @@ objects, animals or people that are provided."
                   />
                   <Works
                     title="DATA ANALYSIS"
-                    image={data}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914217/data_n6vtls.jpg'
                     name="DATA"
                     description="Learn how to inspect, clean, transform, and
 model data for useful information
@@ -82,14 +82,14 @@ extrapolation"
                   />
                   <Works
                     title="DATA SCIENCE"
-                    image={science}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678915273/scienc_rdmvrq.jpg'
                     name="DATA"
                     description="Learn data management, visualization,
 analysis."
                   />
                   <Works
                     title="VR/AR"
-                    image={vr}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/blog-2_coaw8d.jpg'
                     name="VIRTUAL REALITY"
                     description="A guide on 3D development with blender,
 with an introduction to unity engine."
@@ -97,7 +97,7 @@ with an introduction to unity engine."
                   <Works
                     title="NETWORKING FUNDAMENTALS
 & WIRELESS NETWORKING"
-                    image={networking}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678916504/Screenshot_from_2023-03-15_22-41-03_nntk87.png'
                     name="NETWORKING"
                     description="Connecting two or more computers with
 purpose to share data or technical
@@ -105,14 +105,14 @@ support."
                   />
                   <Works
                     title="CYBER SECURITY"
-                    image={cyber}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678916506/Screenshot_from_2023-03-15_22-39-17_ucus9a.png'
                     name="INTERNET SECURITY"
                     description="Learn the computer security or information
 technology security."
                   />
                   <Works
                     title="DIGITAL MARKETING"
-                    image={marketing}
+                    image='https://res.cloudinary.com/nhubnacademy/image/upload/v1678915676/marketing_numbra.jpg'
                     name="MARKETING"
                     description="Together with our large partners like
 Facebook and Google, we have trained

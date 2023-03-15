@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import obj_triangle from '../../../img/obj_triangle.png';
-import logo from '../../../img/hub/Union.png';
+// import logo from '../../../img/hub/Union.png';
 
 const HomeHeader = () => {
   const navLinkStyle = ({ isActive }) => {
@@ -18,7 +18,7 @@ const HomeHeader = () => {
               className="navbar-brand d-flex align-items-center text-white"
               to="/"
             >
-              <img src={logo} alt="" width="70px" />
+              <img src='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/Union_tnkbgd.png' alt="" width="70px" />
             </Link>
             <button
               className="navbar-toggler"
@@ -42,7 +42,7 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/OurCourses"
+                    to="/ourcourses"
                   >
                     Our Courses
                   </NavLink>
@@ -69,7 +69,7 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/CoWorkingSpace"
+                    to="/coworkingspace"
                   >
                     Co-Working Space
                   </NavLink>

@@ -1,4 +1,4 @@
-import bg from '../../img/hub/internshipp.JPG';
+// import bg from '../../img/hub/internshipp.JPG';
 
 const FeatureSection = () => {
   return (
@@ -7,7 +7,7 @@ const FeatureSection = () => {
         id="cta"
         className="bg-fixed overlay"
         style={{
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678915471/internshipp_lf5myn.jpg)`,
         }}
       >
         <div className="container">

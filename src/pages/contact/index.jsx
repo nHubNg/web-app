@@ -2,12 +2,12 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 
 import FeatureSection from '../../components/featureSection';
-import bg from '../../img/hub/contact.JPG';
+// import bg from '../../img/hub/contact.JPG';
 
 const Contact = () => {
   return (
     <>
-      <Header name="Contact Us" bg={bg} />
+      <Header name="Contact Us" bg='https://res.cloudinary.com/nhubnacademy/image/upload/v1678914563/contact_do8v1z.jpg' />
 
       {/* <!-- Contact Form Section --> */}
       <section id="contact-form" className="bg-white">
