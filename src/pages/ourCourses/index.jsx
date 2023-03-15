@@ -51,7 +51,7 @@ Interface and Experience design and product design."
                   />
                   <Works
                     title="MOBILE APP DEVELOPMENT"
-                    image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915711/mobile_huo9a3.jpg"
+                    image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678920777/Screenshot_from_2023-03-15_23-52-43_x5ydym.png"
                     name="FLUTTER"
                     description="Learn how to develop mobile applications for both android and iOS devices using flutter."
                   />
@@ -103,7 +103,7 @@ technology security."
                   />
                   <Works
                     title="DIGITAL MARKETING"
-                    image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915676/marketing_numbra.jpg"
+                    image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678920636/Screenshot_from_2023-03-15_23-50-14_pyxoqy.png"
                     name="MARKETING"
                     description="Together with our large partners like
 Facebook and Google, we have trained
