@@ -54,7 +54,7 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/About"
+                    to="/about"
                   >
                     About
                   </NavLink>
@@ -63,7 +63,7 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/Programs"
+                    to="/programs"
                   >
                     Programs
                   </NavLink>
@@ -81,7 +81,7 @@ const HomeHeader = () => {
                   <NavLink
                     style={navLinkStyle}
                     className="nav-link"
-                    to="/Contact"
+                    to="/contact"
                   >
                     Contact
                   </NavLink>
