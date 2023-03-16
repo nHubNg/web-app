@@ -113,17 +113,73 @@ const About = () => {
                 />
               </div>
 
-              {/* <div
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678980680/shamsiyya_ianswu.jpg"
+                  heading="Shamsiyya Bashir"
+                  description="Project Manager"
+                  twitter=""
+                  instagram="https://www.instagram.com/shamsiyyah10/"
+                  linkedIn="https://www.linkedin.com/in/shamsiya-bashir-432958185/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/vicky_czj1hp.jpg"
+                  heading="Efezino Victory"
+                  description="Community Manager"
+                  twitter="https://twitter.com/EfezinoVictory"
+                  instagram="https://www.instagram.com/mosesefezinovictory/"
+                  linkedIn="https://www.linkedin.com/in/efezino-victory-moses-066756261/"
+                />
+              </div>
+
+              
+               
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
+            </div>
+
+            <section id="skills" className="bg-white">
+              <div className="about-staff">
+                <h3>MEET OUR MASTER TRAINERS</h3>
+              </div>
+            </section>
+            <div className="row text-center">
+            <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678975344/nkem_mflr6e.jpg"
+                  heading="Nkemdilim Okeke"
+                  description="Master Trainer"
+                  twitter=""
+                  instagram="https://www.instagram.com/nkemm._/"
+                  linkedIn=""
+                />
+              </div>
+
+               {/* <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
                   image=""
-                  heading="Shamsiyya"
-                  description="Project Manager"
+                  heading="Agwom Akare"
+                  description="Master Trainer"
                   twitter=""
-                  instagram="https://www.instagram.com/shamsiyyah10/"
+                  instagram="https://www.instagram.com/beebela03/"
                   linkedIn=""
                 />
               </div> */}
@@ -143,37 +199,8 @@ const About = () => {
                 />
               </div> */}
 
-               {/* <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image=""
-                  heading="Okeke Nkemdilim"
-                  description="Master Trainer"
-                  twitter=""
-                  instagram="https://www.instagram.com/nkemm._/"
-                  linkedIn=""
-                />
-              </div> */}
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
 
-               {/* <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image=""
-                  heading="Agwom Akare"
-                  description="Master Trainer"
-                  twitter=""
-                  instagram="https://www.instagram.com/beebela03/"
-                  linkedIn=""
-                />
-              </div> */}
-
-               
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
 
@@ -282,6 +309,21 @@ const About = () => {
                   twitter="https://twitter.com/AdeifeEffective"
                   instagram="https://www.instagram.com/ade_effective/"
                   linkedIn="https://www.linkedin.com/in/olugunnaadeife/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914411/ife_eg88ng.jpg"
+                  heading="Temitope"
+                  description="Data Analyst"
+                  twitter=""
+                  instagram=""
+                  linkedIn=""
                 />
               </div>
 

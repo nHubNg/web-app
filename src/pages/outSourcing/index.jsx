@@ -162,6 +162,58 @@ const OutSourcing = () => {
                   <p>PLAY STORE</p>
                   <p>APP STORE</p>
                 </div>
+
+                <div className="stack-2">
+                  <h3>
+                    <b>DATA ANALYSIS</b>
+                  </h3>
+                  <h4>PACKAGES</h4>
+
+                  <p>GENERAL INTRODUCTION and INTRODCTIONT TO PITCHING, STORY TELING AND PUBLIC SPEAKING (1 WEEK)</p>
+                  <p>EXCEL (5 WEEKS)</p>
+                  <p>PYTHON (8 WEEKS)</p>
+                  <p>SQL (5 WEEKS)</p>
+                  <p>POWER BI (5 WEEKS)</p>
+
+                  <h4>EXCEL</h4>
+
+                  <p>INTRODUCTION</p>
+                  <p>PIVOT TABLES</p>
+                  <p>FORMULAS</p>
+                  <p>XLOOP</p>
+                  <p>CONDITIONAL FORMATTING</p>
+                  <p>CHARTS</p>
+                  <p>DATA CLEANING</p>
+
+                  <h4>PYTHON</h4>
+                  <p>INTRODUCTION</p>
+                  <p>FUNCTIONS ( LOOPS & IF STATEMENTS)</p>
+                  <p>NUMPY</p>
+                  <p>PANDAS</p>
+                  <p>MATPLOTLIB</p>
+                  <p>SEABORN</p>
+                  <p>WEB SCRAPPING</p>
+
+                  <h4>SQL</h4>
+
+                  <p>INTRODUCTION</p>
+                  <p>DATABASES AND TABLES</p>
+                  <p>SQL STATEMENTS FUNDAMENTALS</p>
+                  <p>JOINS</p>
+                  <p>SUBQUERY</p>
+                  <p>ADVANCE SQL COMMANDS</p>
+                  <p>CREATING DATABASES AND TABLES</p>
+
+                  <h4>POWER BI</h4>
+
+                  <p>INTRODUCTION</p>
+                  <p>POWER QUERY</p>
+                  <p>DATA MODELING</p>
+                  <p>DAX AND DAX FUNCTIONS</p>
+                  <p>SUBQUERY</p>
+                  <p>TEXT, LOGICAL, MATHS AND STATISTIC FUNCTION</p>
+                  <p>VISUALIZATIONS</p>
+                </div>
               </div>
             </div>
           </div>
