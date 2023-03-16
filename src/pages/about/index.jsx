@@ -109,23 +109,71 @@ const About = () => {
                   description="Lead Incubation"
                   twitter="https://twitter.com/Naan_bee"
                   instagram="https://www.instagram.com/bizzlekumben/"
-                  linkedIn=""
+                  linkedIn="https://www.linkedin.com/in/nanbam-kumben-1270b9193/"
                 />
               </div>
-              <div
+
+              {/* <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914084/ahmed_glncqq.jpg"
-                  heading="Yusuf Ahmed"
-                  description="Brand Manager"
-                  twitter="https://twitter.com/yusufahmedng"
-                  instagram="https://www.instagram.com/yusufahmedng/"
-                  linkedIn="https://www.linkedin.com/in/yusufahmedng/"
+                  image=""
+                  heading="Shamsiyya"
+                  description="Project Manager"
+                  twitter=""
+                  instagram="https://www.instagram.com/shamsiyyah10/"
+                  linkedIn=""
                 />
-              </div>
+              </div> */}
+
+              {/* <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image=""
+                  heading="Chioma "
+                  description="Community Manager"
+                  twitter=""
+                  instagram=""
+                  linkedIn=""
+                />
+              </div> */}
+
+               {/* <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image=""
+                  heading="Okeke Nkemdilim"
+                  description="Master Trainer"
+                  twitter=""
+                  instagram="https://www.instagram.com/nkemm._/"
+                  linkedIn=""
+                />
+              </div> */}
+
+               {/* <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image=""
+                  heading="Agwom Akare"
+                  description="Master Trainer"
+                  twitter=""
+                  instagram="https://www.instagram.com/beebela03/"
+                  linkedIn=""
+                />
+              </div> */}
+
+               
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
 

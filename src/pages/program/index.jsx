@@ -55,7 +55,7 @@ const Program = () => {
       <div className="card-2">
         <Card
           image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914335/back_zniyd7.jpg"
-          title="INCUBATION AND ENTREPRENEURSHIP"
+          title="INCUBATION & ACCELERATOR"
           paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
                   take their product development to the highest level. we also
@@ -108,9 +108,9 @@ const Program = () => {
                 <p>Other key partners include:</p>
                 <ul>
                   <li>Fellowship Program</li>
-                  <li>Next Economy</li>
                   <li>Industrial Training Fund</li>
-                  <li>MIcrosoft Office Suit Tailor Training</li>
+                  <li>MIcrosoft Office Suit Tailored Training</li>
+                  <li>The Next Economy (2016 - 2020) : An incubation program by the Dutch ministry of foreign affairs in partnership with nHub and other implementing partners.  Divided into two trajectories of entrepreneurship for young people interested in starting a business model and Employability to equip young graduate with the future of work skills and employable. We were able to raise over twenty million naira in equity free funding using the concept of crowdfunding as an alternative to business financing.</li>
                 </ul>
               </div>
             </div>
