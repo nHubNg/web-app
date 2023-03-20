@@ -289,6 +289,20 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679352280/ediong_avalxu.jpg"
+                  heading="Ediongsenyene Inokotong"
+                  description="Frontend Developer"
+                  twitter="https://twitter.com/IEdiong"
+                  instagram=""
+                  linkedIn="https://www.linkedin.com/in/iediong/"
+                />
+              </div>
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
                   image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914568/jere_twes9d.jpg"
                   heading="Jeremiah Oluranti Faluyi"
                   description="FullStack Developer"

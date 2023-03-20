@@ -214,6 +214,40 @@ const OutSourcing = () => {
                   <p>TEXT, LOGICAL, MATHS AND STATISTIC FUNCTION</p>
                   <p>VISUALIZATIONS</p>
                 </div>
+                <div className="stack-1">
+                  <h3>
+                    <b>DATA SCIENCE</b>
+                  </h3>
+                  <h4>LANGUAGES</h4>
+
+                  <p>PYTHON</p>
+
+                  <h4>TOOLS</h4>
+
+                  <p>ANACONDA</p>
+
+                  <h4>LIBRARIES</h4>
+
+                  <p>NUMPY</p>
+                  <p>PANDA</p>
+
+                  <h4>DATA VISUALIZATION</h4>
+
+                  <p>MATPLOTLIB</p>
+                  <p>SEABORN</p>
+                  <p>PLOTLY</p>
+
+                  <h4>MACHINE LEARNING</h4>
+
+                  <p>SUPERVISED LEARNING</p>
+                  <p>UNSUPERVISED LEARNING</p>
+                  <p>LINEAR ALGEBRA (LINEAR REGRESSION)</p>
+                  <p>LOGISTICS REGRESSION</p>
+                  <p>CLUSTERING</p>
+                  <p>GRADIENT DESCENT</p>
+
+                </div>
+
               </div>
             </div>
           </div>
