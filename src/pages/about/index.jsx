@@ -318,12 +318,12 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914411/ife_eg88ng.jpg"
-                  heading="Temitope"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679351694/5418f8fb-84fd-4644-ba68-e3404256a9a4_djktkz.jpg"
+                  heading="Temitope Oke"
                   description="Data Analyst"
-                  twitter=""
-                  instagram=""
-                  linkedIn=""
+                  twitter="https://twitter.com/Temi_Oke_"
+                  instagram="https://www.instagram.com/temi_flourish/"
+                  linkedIn="https://www.linkedin.com/in/flourish-oke-a18668224/"
                 />
               </div>
 
