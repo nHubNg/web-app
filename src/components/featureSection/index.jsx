@@ -5,7 +5,7 @@ const FeatureSection = () => {
         id="cta"
         className="bg-fixed overlay"
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678915471/nhubNigeria/internshipp_lf5myn.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678915471/nhubNigeria/internshipp_lf5myn.jpg)`,
         }}
       >
         <div className="container">

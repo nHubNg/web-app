@@ -54,7 +54,7 @@ const Program = () => {
 
       <div className="card-2">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914335/nhubNigeria/back_zniyd7.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678914335/nhubNigeria/back_zniyd7.jpg"
           title="INCUBATION & ACCELERATOR"
           paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
@@ -69,7 +69,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915566/nhubNigeria/next_pmneip.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678915566/nhubNigeria/next_pmneip.jpg"
           title="SOFTWARE DEVELOPMENT TRAINING"
           paragraph="We have in place a comprehensive plan to equip you with practical skills and help you gain proficiency in various areas of ICT. Whether you are completely new to the world of ICT, or need to add an extra skill to your profile, we have tailor-made training services for all categories of learners. Our training programs cover, but are not limited to Website design and development (in various languages and stacks), Mobile App development, Robotics, Augmented & Virtual Reality, Data Science and AI, Graphics Design and 3D Animation."
         />

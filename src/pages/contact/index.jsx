@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <Header
         name="Contact Us"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914563/nhubNigeria/contact_do8v1z.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678914563/nhubNigeria/contact_do8v1z.jpg"
       />
 
       {/* <!-- Contact Form Section --> */}

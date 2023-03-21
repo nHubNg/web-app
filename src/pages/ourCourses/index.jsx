@@ -8,7 +8,7 @@ const OurCourses = () => {
     <>
       <Header
         name="Our Courses"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914599/nhubNigeria/cover_pfgyc1.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678914599/nhubNigeria/cover_pfgyc1.jpg"
       />
 
       <section id="blog" className="bg-grey">
@@ -73,7 +73,7 @@ extrapolation"
                   />
                   <Works
                     title="DATA SCIENCE"
-                    image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915273/nhubNigeria/scienc_rdmvrq.jpg"
+                    image="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678915273/nhubNigeria/scienc_rdmvrq.jpg"
                     name="DATA"
                     description="Learn data management, visualization,
 analysis."

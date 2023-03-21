@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Header
         name="About Us"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914632/nhubNigeria/courses_jtppir.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678914632/nhubNigeria/courses_jtppir.jpg"
       />
       <section id="who-we-are" className="bg-white">
         <div className="container">
@@ -217,7 +217,7 @@ const About = () => {
             <div className="row text-center">
               <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915083/nhubNigeria/Msad_qkde1q.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678915083/nhubNigeria/Msad_qkde1q.jpg"
                   heading="Muhammad Sadiq Abdulrasheed"
                   description="Backend Developer"
                   twitter="https://twitter.com/dotMsadiq"

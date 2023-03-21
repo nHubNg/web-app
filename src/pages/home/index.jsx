@@ -21,7 +21,7 @@ const Home = () => {
         id="section-featurettes"
         className="featurettes overlay bg-fixed"
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678914733/nhubNigeria/backk_nah9dj.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678914733/nhubNigeria/backk_nah9dj.jpg)`,
         }}
       >
         <div className="container">
