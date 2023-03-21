@@ -21,7 +21,7 @@ const Home = () => {
         id="section-featurettes"
         className="featurettes overlay bg-fixed"
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678914733/backk_nah9dj.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678914733/nhubNigeria/backk_nah9dj.jpg)`,
         }}
       >
         <div className="container">
@@ -56,7 +56,7 @@ const Home = () => {
                   >
                     <img
                       className="my-5"
-                      src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914992/wire_yacyuf.jpg"
+                      src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914992/nhubNigeria/wire_yacyuf.jpg"
                       alt=""
                       style={{ borderRadius: '5px' }}
                     />
@@ -76,7 +76,7 @@ const Home = () => {
         <Carousel id="carosel">
           <Carousel.Item>
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/bg-white_k0amwf.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/nhubNigeria/bg-white_k0amwf.jpg"
               id="whiteBG"
               alt=""
             />
@@ -86,14 +86,14 @@ const Home = () => {
                 nHub Nigeria has exposed me to so many knowledge, possibilities and opportunities I have never imagined or learnt before now"
                 name="Sadiq"
                 title="Backend Developer"
-                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915083/Msad_qkde1q.jpg"
+                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915083/nhubNigeria/Msad_qkde1q.jpg"
               />
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/bg-white_k0amwf.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/nhubNigeria/bg-white_k0amwf.jpg"
               id="whiteBG"
               alt=""
             />
@@ -103,14 +103,14 @@ const Home = () => {
                 I have been able to grow as a developer and also connect with like minds and developers during my stay at nHub."
                 name="Desmond"
                 title="Frontend Developer"
-                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914273/dess_ejujtv.jpg"
+                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914273/nhubNigeria/dess_ejujtv.jpg"
               />
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/bg-white_k0amwf.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/nhubNigeria/bg-white_k0amwf.jpg"
               id="whiteBG"
               alt=""
             />
@@ -120,14 +120,14 @@ const Home = () => {
                 A very conducive and inspiring community to grow together and work as a team."
                 name="Terrence"
                 title="UI/UX Designer"
-                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914812/Terrence_wwhd55.jpg"
+                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914812/nhubNigeria/Terrence_wwhd55.jpg"
               />
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/bg-white_k0amwf.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/nhubNigeria/bg-white_k0amwf.jpg"
               id="whiteBG"
               alt=""
             />
@@ -137,14 +137,14 @@ const Home = () => {
                 An organization which provides a comfortable learning environment. Quality mentorship and user friendly curriculum."
                 name="Faith"
                 title="Private Student"
-                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914632/courses_jtppir.jpg"
+                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914632/nhubNigeria/courses_jtppir.jpg"
               />
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/bg-white_k0amwf.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678913905/nhubNigeria/bg-white_k0amwf.jpg"
               id="whiteBG"
               alt=""
             />
@@ -154,7 +154,7 @@ const Home = () => {
                 Thanks to nHub, I have grown and improved greatly in my web development journey. I was able to learn things I wasn't taught in school"
                 name="Ibrahim"
                 title="Intern"
-                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914733/backk_nah9dj.jpg"
+                image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914733/nhubNigeria/backk_nah9dj.jpg"
               />
             </Carousel.Caption>
           </Carousel.Item>
@@ -166,7 +166,7 @@ const Home = () => {
         id="client"
         className="overlay bg-fixed"
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678915471/internshipp_lf5myn.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/v1678915471/nhubNigeria/internshipp_lf5myn.jpg)`,
         }}
       ></section>
       {/* <!-- End of Client Section -->	 */}

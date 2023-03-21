@@ -7,7 +7,7 @@ const OutSourcing = () => {
     <>
       <Header
         name="OutSource Programs"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915495/outsorcing_lzzkyi.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915495/nhubNigeria/outsorcing_lzzkyi.jpg"
       />
 
       {/* <!-- Contact Form Section --> */}

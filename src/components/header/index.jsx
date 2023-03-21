@@ -19,7 +19,7 @@ const Header = (props) => {
             >
               {/* <h3 className="font-weight-bolder mb-0">NHUB</h3> */}
               <img
-                src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/Union_tnkbgd.png"
+                src="https://res.cloudinary.com/nhubnacademy/image/upload/nhubNigeria/v1678914860/Union_tnkbgd.png"
                 alt=""
                 width="70px"
               />

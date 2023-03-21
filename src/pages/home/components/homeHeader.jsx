@@ -18,7 +18,7 @@ const HomeHeader = () => {
               to="/"
             >
               <img
-                src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/Union_tnkbgd.png"
+                src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914860/nhubNigeria/Union_tnkbgd.png"
                 alt=""
                 width="70px"
               />

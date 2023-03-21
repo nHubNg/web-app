@@ -8,7 +8,7 @@ const CoWorkingSpace = () => {
     <>
       <Header
         name="Co-Working Space"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914808/space_e5kxax.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914808/nhubNigeria/space_e5kxax.jpg"
       />
       <div className="container">
         <div className="title-wrap mb-5" data-aos="fade-up">
@@ -107,7 +107,7 @@ const CoWorkingSpace = () => {
         <div className="row text-center mb-4">
           <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room7_tlv3gv.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/nhubNigeria/v1678914782/room7_tlv3gv.jpg"
               alt=""
             />
           </div>
@@ -118,7 +118,7 @@ const CoWorkingSpace = () => {
             data-aos-delay="200"
           >
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914770/room2_ozrfpx.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914770/nhubNigeria/room2_ozrfpx.jpg"
               alt=""
             />
           </div>
@@ -129,7 +129,7 @@ const CoWorkingSpace = () => {
             data-aos-delay="400"
           >
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914775/room3_fynmmx.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914775/nhubNigeria/room3_fynmmx.jpg"
               alt=""
             />
           </div>
@@ -139,7 +139,7 @@ const CoWorkingSpace = () => {
             data-aos-delay="400"
           >
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/room4_bpxenx.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914782/nhubNigeria/room4_bpxenx.jpg"
               alt=""
             />
           </div>
@@ -149,7 +149,7 @@ const CoWorkingSpace = () => {
             data-aos-delay="400"
           >
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914788/room5_n1g2ib.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914788/nhubNigeria/room5_n1g2ib.jpg"
               alt=""
             />
           </div>
@@ -159,7 +159,7 @@ const CoWorkingSpace = () => {
             data-aos-delay="400"
           >
             <img
-              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914777/room6_j7cdfy.jpg"
+              src="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914777/nhubNigeria/room6_j7cdfy.jpg"
               alt=""
             />
           </div>

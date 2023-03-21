@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Header
         name="About Us"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914632/courses_jtppir.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914632/nhubNigeria/courses_jtppir.jpg"
       />
       <section id="who-we-are" className="bg-white">
         <div className="container">
@@ -46,7 +46,7 @@ const About = () => {
             <div className="row text-center">
               <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914821/theodore_ayfqye.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914821/nhubNigeria/theodore_ayfqye.jpg"
                   heading="Theodore Longji"
                   description="CEO"
                   twitter="https://twitter.com/theodorelongji"
@@ -61,7 +61,7 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914111/bash_yytl2u.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914111/nhubNigeria/bash_yytl2u.jpg"
                   heading="Bashir Shaidu"
                   description="COO"
                   twitter="https://twitter.com/ImpactBash"
@@ -76,7 +76,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914707/nathan_rsitxx.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914707/nhubNigeria/nathan_rsitxx.jpg"
                   heading="Nathan Pankyes"
                   description="Legal"
                   twitter=""
@@ -90,7 +90,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/sam_mffar3.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914784/nhubNigeria/sam_mffar3.jpg"
                   heading="Samuel Adebayo"
                   description="Head of Partnership"
                   twitter="https://twitter.com/IamsamAdebayo"
@@ -104,7 +104,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914696/nanbam_ldleqt.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914696/nhubNigeria/nanbam_ldleqt.jpg"
                   heading="Nanbam Kumben"
                   description="Lead Incubation"
                   twitter="https://twitter.com/Naan_bee"
@@ -119,7 +119,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678980680/shamsiyya_ianswu.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678980680/nhubNigeria/shamsiyya_ianswu.jpg"
                   heading="Shamsiyya Bashir"
                   description="Project Manager"
                   twitter=""
@@ -134,7 +134,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/vicky_czj1hp.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
                   heading="Efezino Victory"
                   description="Community Manager"
                   twitter="https://twitter.com/EfezinoVictory"
@@ -160,7 +160,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678975344/nkem_mflr6e.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678975344/nhubNigeria/nkem_mflr6e.jpg"
                   heading="Nkemdilim Okeke"
                   description="Master Trainer"
                   twitter=""
@@ -217,7 +217,7 @@ const About = () => {
             <div className="row text-center">
               <div className="col-md-4 col-sm-6 mt-4" data-aos="fade-up">
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915083/Msad_qkde1q.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915083/nhubNigeria/Msad_qkde1q.jpg"
                   heading="Muhammad Sadiq Abdulrasheed"
                   description="Backend Developer"
                   twitter="https://twitter.com/dotMsadiq"
@@ -232,7 +232,7 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914812/Terrence_wwhd55.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914812/nhubNigeria/Terrence_wwhd55.jpg"
                   heading="Terrence Eze"
                   description="UI/UX Developer"
                   twitter="https://twitter.com/jstdika"
@@ -247,7 +247,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914875/wakzin_b23am3.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914875/nhubNigeria/wakzin_b23am3.jpg"
                   heading="Wakzin Gani"
                   description="AR/VR Developer"
                   twitter="https://twitter.com/gani_wakzin?t=17H0bKulvB859uZqDdQ3Rg&s=09"
@@ -261,7 +261,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914392/hagos_snaovj.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914392/nhubNigeria/hagos_snaovj.jpg"
                   heading="Hagos Abdullah"
                   description="Embedded Systems & IOT."
                   twitter="https://twitter.com/AbdallahHagos"
@@ -275,7 +275,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914628/marvel_zwmhny.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914628/nhubNigeria/marvel_zwmhny.jpg"
                   heading="Stephen Paul"
                   description="Networks & CyberSec"
                   twitter="https://twitter.com/lohtis"
@@ -289,7 +289,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679352280/ediong_avalxu.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679352280/nhubNigeria/ediong_avalxu.jpg"
                   heading="Ediongsenyene Inokotong"
                   description="Frontend Developer"
                   twitter="https://twitter.com/IEdiong"
@@ -303,7 +303,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914568/jere_twes9d.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914568/nhubNigeria/jere_twes9d.jpg"
                   heading="Jeremiah Oluranti Faluyi"
                   description="FullStack Developer"
                   twitter="https://twitter.com/_oluranti"
@@ -317,7 +317,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914411/ife_eg88ng.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914411/nhubNigeria/ife_eg88ng.jpg"
                   heading="Adeife Olugunna"
                   description="Data Analyst"
                   twitter="https://twitter.com/AdeifeEffective"
@@ -332,7 +332,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679351694/5418f8fb-84fd-4644-ba68-e3404256a9a4_djktkz.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679351694/nhubNigeria/5418f8fb-84fd-4644-ba68-e3404256a9a4_djktkz.jpg"
                   heading="Temitope Oke"
                   description="Data Analyst"
                   twitter="https://twitter.com/Temi_Oke_"

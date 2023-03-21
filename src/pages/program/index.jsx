@@ -8,7 +8,7 @@ const Program = () => {
     <div>
       <Header
         name="Programs"
-        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678916148/program_dxnioz.jpg"
+        bg="https://res.cloudinary.com/nhubnacademy/image/upload/v1678916148/nhubNigeria/program_dxnioz.jpg"
       />
 
       <section id="blog" className="bg-grey">
@@ -45,7 +45,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914980/sevo_eaqaio.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914980/nhubNigeria/sevo_eaqaio.jpg"
           title="SEVOCODER"
           paragraph="The mission here is to “catch them young”. This program is targeted at kids within the age range of six (6) and sixteen (16) years, with the aim of exposing them to different emerging technologies, having them learn and ultimately choose the path that best suit them.
           The major role SEVOCODER play in the upbringing of young children is that it prepares them for the future of work which is based on technology, and gives them a fair fighting chance against their counterparts all over the world."
@@ -54,7 +54,7 @@ const Program = () => {
 
       <div className="card-2">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914335/back_zniyd7.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914335/nhubNigeria/back_zniyd7.jpg"
           title="INCUBATION & ACCELERATOR"
           paragraph="We train, and develop business concepts as well as make
                   available, suitable, and qualified mentors for Startups to
@@ -69,7 +69,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915566/next_pmneip.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678915566/nhubNigeria/next_pmneip.jpg"
           title="SOFTWARE DEVELOPMENT TRAINING"
           paragraph="We have in place a comprehensive plan to equip you with practical skills and help you gain proficiency in various areas of ICT. Whether you are completely new to the world of ICT, or need to add an extra skill to your profile, we have tailor-made training services for all categories of learners. Our training programs cover, but are not limited to Website design and development (in various languages and stacks), Mobile App development, Robotics, Augmented & Virtual Reality, Data Science and AI, Graphics Design and 3D Animation."
         />
@@ -77,7 +77,7 @@ const Program = () => {
 
       <div className="card-2">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914764/programm_zkravc.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914764/nhubNigeria/programm_zkravc.jpg"
           title="COMMUNITY PROGRAMS"
           paragraph="We also host and support any activity, set of activities, other initiative or tech related community programs such as Google Developer Group, Dev Fest, International Women's Day, Flutter, and so on for the benefit of techies. Programs like this expose developers to new ideas and skills. It also provides an opportunity for developers to meet other developers and connect, which is very important in tech space."
         />
@@ -85,7 +85,7 @@ const Program = () => {
 
       <div className="card-1">
         <Card
-          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914635/meet_u81z7o.jpg"
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914635/nhubNigeria/meet_u81z7o.jpg"
           title="MEET UPS"
           paragraph="Meet ups are key events that gives tech members an opportunity to connect with each other and also to acquire knowledge and gain advice from those above them so as to overcome some challenges they may be facing. nHub regularly host such meet ups for it's members in a bid to make sure they get quality and maximum support in their tech journey."
         />
