@@ -184,20 +184,20 @@ const About = () => {
                 />
               </div> */}
 
-              {/* <div
+              <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
-                  image=""
-                  heading="Chioma "
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679516958/nhubNigeria/image1_qlstcl.jpg"
+                  heading="Ifeanyi Chioma "
                   description="Community Manager"
-                  twitter=""
-                  instagram=""
+                  twitter="https://twitter.com/Ifeanyichioma47"
+                  instagram="https://www.instagram.com/chioma.ifeanyi.927/"
                   linkedIn=""
                 />
-              </div> */}
+              </div>
 
               {/* <!-- /.col-md-4 col-sm-6  --> */}
 
