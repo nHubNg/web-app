@@ -169,20 +169,20 @@ const About = () => {
                 />
               </div>
 
-               {/* <div
+               <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
-                  image=""
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679577617/nhubNigeria/6afc07b5-c285-489f-9b5e-8d7a632daf60_n6dmhh.jpg"
                   heading="Agwom Akare"
                   description="Master Trainer"
-                  twitter=""
+                  twitter="https://twitter.com/AkareAgwom"
                   instagram="https://www.instagram.com/beebela03/"
                   linkedIn=""
                 />
-              </div> */}
+              </div>
 
               <div
                 className="col-md-4 col-sm-6 mt-4"
