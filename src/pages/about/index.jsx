@@ -192,7 +192,7 @@ const About = () => {
                 <Card
                   image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679516958/nhubNigeria/image1_qlstcl.jpg"
                   heading="Ifeanyi Chioma "
-                  description="Community Manager"
+                  description="Master Trainer"
                   twitter="https://twitter.com/Ifeanyichioma47"
                   instagram="https://www.instagram.com/chioma.ifeanyi.927/"
                   linkedIn=""
