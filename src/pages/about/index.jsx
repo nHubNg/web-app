@@ -289,7 +289,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679352280/nhubNigeria/ediong_avalxu.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679682956/nhubNigeria/IMG_7620_ls29xu.jpg"
                   heading="Ediongsenyene Inokotong"
                   description="Frontend Developer"
                   twitter="https://twitter.com/IEdiong"
