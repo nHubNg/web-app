@@ -232,7 +232,7 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914812/nhubNigeria/Terrence_wwhd55.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679690051/nhubNigeria/IMG_7621_fendex.jpg"
                   heading="Terrence Eze"
                   description="UI/UX Developer"
                   twitter="https://twitter.com/jstdika"
@@ -303,7 +303,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914568/nhubNigeria/jere_twes9d.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679690052/nhubNigeria/IMG_7622_efikeb.jpg"
                   heading="Jeremiah Oluranti Faluyi"
                   description="FullStack Developer"
                   twitter="https://twitter.com/_oluranti"
