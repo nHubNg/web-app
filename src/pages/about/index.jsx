@@ -4,7 +4,6 @@ import Card from './components/card';
 import FeatureSection from '../../components/featureSection';
 
 const About = () => {
-
   return (
     <>
       <Header
@@ -128,23 +127,21 @@ const About = () => {
                 />
               </div>
 
-              <div
+              {/* <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
                   image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
-                  heading="Efezino Victory"
+                  heading="Eyinmosan Sholaye"
                   description="Community Manager"
-                  twitter="https://twitter.com/EfezinoVictory"
-                  instagram="https://www.instagram.com/mosesefezinovictory/"
-                  linkedIn="https://www.linkedin.com/in/efezino-victory-moses-066756261/"
+                  twitter="https://twitter.com/NoverPrime"
+                  instagram="https://www.instagram.com/noverprime/"
+                  linkedIn="https://www.linkedin.com/in/eyinmosan-sholaye-080732172/"
                 />
-              </div>
+              </div> */}
 
-              
-               
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
 
@@ -154,7 +151,67 @@ const About = () => {
               </div>
             </section>
             <div className="row text-center">
-            <div
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/sophie_m98d8d.jpg"
+                  heading="Sophie Ameh"
+                  description="Master Trainer: Frontend"
+                  twitter="https://twitter.com/Sophie_Ameh"
+                  instagram="https://www.instagram.com/__sophiiee.___/"
+                  linkedIn="https://www.linkedin.com/in/sophia-ameh-67a849248/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/fon_ubjdsb.jpg"
+                  heading="Fon Desmond"
+                  description="Master Trainer: IT"
+                  twitter="https://twitter.com/DezmondFon"
+                  instagram="https://www.instagram.com/dezmond_fon/"
+                  linkedIn="https://www.linkedin.com/in/desmond-fon/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/chris_x7lolu.jpg"
+                  heading="Christopher Pam"
+                  description="Master Trainer: Backend"
+                  twitter="https://twitter.com/krispamB"
+                  instagram="https://www.instagram.com/krispam_b/"
+                  linkedIn=""
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680023420/nhubNigeria/victor_elhxfr.jpg"
+                  heading="Umeokoli Victor Onyeka"
+                  description="Graphics Designer / Frontend"
+                  twitter="https://twitter.com/Le_Sieger?s=08"
+                  instagram="https://www.instagram.com/invites/contact/?i=1km1e8mbdv1z5&utm_content=mwitzmu"
+                  linkedIn=""
+                />
+              </div>
+
+              <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
@@ -169,7 +226,7 @@ const About = () => {
                 />
               </div>
 
-               <div
+              <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
@@ -181,6 +238,21 @@ const About = () => {
                   twitter="https://twitter.com/AkareAgwom"
                   instagram="https://www.instagram.com/beebela03/"
                   linkedIn=""
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
+                  heading="Efezino Victory"
+                  description="Master Trainer"
+                  twitter="https://twitter.com/EfezinoVictory"
+                  instagram="https://www.instagram.com/mosesefezinovictory/"
+                  linkedIn="https://www.linkedin.com/in/efezino-victory-moses-066756261/"
                 />
               </div>
 
@@ -247,7 +319,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914875/nhubNigeria/wakzin_b23am3.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/gani_w7fh0r.jpg"
                   heading="Wakzin Gani"
                   description="AR/VR Developer"
                   twitter="https://twitter.com/gani_wakzin?t=17H0bKulvB859uZqDdQ3Rg&s=09"
@@ -305,7 +377,7 @@ const About = () => {
                 <Card
                   image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679690052/nhubNigeria/IMG_7622_efikeb.jpg"
                   heading="Jeremiah Oluranti Faluyi"
-                  description="FullStack Developer"
+                  description="Fullstack Developer"
                   twitter="https://twitter.com/_oluranti"
                   instagram=""
                   linkedIn="https://www.linkedin.com/in/jeremiah-faluyi-009b85206/"
@@ -317,7 +389,7 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678914411/nhubNigeria/ife_eg88ng.jpg"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680023464/nhubNigeria/ife_bavb0b.jpg"
                   heading="Adeife Olugunna"
                   description="Data Analyst"
                   twitter="https://twitter.com/AdeifeEffective"
@@ -334,10 +406,25 @@ const About = () => {
                 <Card
                   image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679351694/nhubNigeria/5418f8fb-84fd-4644-ba68-e3404256a9a4_djktkz.jpg"
                   heading="Temitope Oke"
-                  description="Data Analyst"
+                  description="Data Science"
                   twitter="https://twitter.com/Temi_Oke_"
                   instagram="https://www.instagram.com/temi_flourish/"
                   linkedIn="https://www.linkedin.com/in/flourish-oke-a18668224/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021619/nhubNigeria/charli_tzvuco.jpg"
+                  heading="Charles Micheal Fyaklek"
+                  description="Backend Developer"
+                  twitter="https://twitter.com/Charlintof"
+                  instagram="https://www.instagram.com/charlinto/"
+                  linkedIn="https://www.linkedin.com/in/fyaklek-charles-b62105210/"
                 />
               </div>
 

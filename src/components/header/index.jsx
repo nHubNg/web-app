@@ -88,7 +88,7 @@ const Header = (props) => {
                   </NavLink>
                 </li>
 
-                <a className="btn btn-outline-primary btn-lg" href="/">
+                <a className="btn btn-outline-primary btn-lg" href="https://sketchfab.com/3d-models/nhub-nigeria-a9c20eb02674490c8c44a0aa1b748a39" target='_blank' rel='noreferrer'>
                   TAKE A TOUR ROUND THE HUB
                 </a>
               </ul>

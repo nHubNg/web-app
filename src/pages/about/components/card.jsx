@@ -10,7 +10,7 @@ const Card = ({
     <>
       <div
         className="profile"
-        style={{ height: '370px', width: '250px', padding: '' }}
+        style={{ height: '390px', width: '250px', padding: '10px' }}
       >
         <div
           style={{
@@ -30,7 +30,15 @@ const Card = ({
             height="100%"
           />
         </div>
-        <div className="profile-text" style={{ width: '100%', height: '40%' }}>
+        <div
+          style={{
+            width: '100%',
+            height: '40%',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+          }}
+        >
           <h5 className="mt-4">{heading}</h5>
           <p>{description}</p>
           <nav className="nav nav-mastfoot justify-content-center">

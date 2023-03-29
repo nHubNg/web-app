@@ -12,6 +12,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-sun fs-40"></i>
@@ -24,6 +25,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-hourglass fs-40"></i>
@@ -40,6 +42,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-location fs-40"></i>
@@ -53,6 +56,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-home fs-40"></i>
@@ -69,6 +73,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-rocket fs-40"></i>
@@ -82,6 +87,7 @@ const SectionCard = () => {
               <div
                 className="shadow rounded feature-item p-4 mb-4"
                 data-aos="fade-up"
+                style={{ height: '350px' }}
               >
                 <div className="my-4">
                   <i className="lnr lnr-diamond fs-40"></i>

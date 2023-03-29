@@ -149,11 +149,11 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #F26024;
+  background: #f26024;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #333399, #F26024);
+  background: -webkit-linear-gradient(to right, #333399, #f26024);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #333399, #F26024);
+  background: linear-gradient(to right, #333399, #f26024);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .jumbotron h1 {
@@ -208,11 +208,11 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #F26024;
+  background: #f26024;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #333399, #F26024);
+  background: -webkit-linear-gradient(to right, #333399, #f26024);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #333399, #F26024);
+  background: linear-gradient(to right, #333399, #f26024);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .overlay.bg-white {
@@ -241,8 +241,8 @@ section {
 
 .btn-primary {
   display: inline-block;
-  background-color: #F26024;
-  border-color: #F26024;
+  background-color: #f26024;
+  border-color: #f26024;
   color: #fff;
 }
 .btn-primary:hover {
@@ -272,7 +272,7 @@ section {
 }
 
 .btn-link {
-  color: #F26024;
+  color: #f26024;
 }
 
 /*=====  End of BUTTON  ======*/
@@ -522,7 +522,7 @@ section {
 }
 
 .progress-bar {
-  background-color: #F26024;
+  background-color: #f26024;
 }
 
 /*=====  End of FEATURES  ======*/
@@ -548,7 +548,7 @@ section {
 }
 
 .testi-icon {
-  color: #F26024;
+  color: #f26024;
 }
 
 .testi-content {
@@ -586,7 +586,7 @@ section {
 }
 .owl-dot.active > span {
   background-color: transparent;
-  box-shadow: 0 0 0 2px #F26024;
+  box-shadow: 0 0 0 2px #f26024;
 }
 
 .owl-dots {
@@ -879,7 +879,7 @@ section {
 =            FORM CONTROL            =
 ====================================*/
 .form-control:focus {
-  border-color: #F26024;
+  border-color: #f26024;
   box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25);
 }
 
@@ -925,11 +925,11 @@ section {
     top: 0;
     height: auto;
     width: 100%;
-    background: #F26024;
+    background: #f26024;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #F26024);
+    background: -webkit-linear-gradient(to right, #333399, #f26024);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #F26024);
+    background: linear-gradient(to right, #333399, #f26024);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -938,11 +938,11 @@ section {
     padding-bottom: 15px !important;
   }
   .navbar-transparent .navbar-collapse {
-    background: #F26024;
+    background: #f26024;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #F26024);
+    background: -webkit-linear-gradient(to right, #333399, #f26024);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #F26024);
+    background: linear-gradient(to right, #333399, #f26024);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px;
   }
@@ -1121,11 +1121,11 @@ section {
   }
 }
 
-.staff{
-  border-radius: 10px;
+.staff {
+  border-radius: 5px;
 }
 
-.profile{
+.profile {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1133,9 +1133,8 @@ section {
   padding: 10px;
 }
 
-.profile-text{
+.profile-text {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }

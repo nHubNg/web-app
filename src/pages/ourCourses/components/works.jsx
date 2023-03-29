@@ -5,7 +5,7 @@ const Works = ({ image, name, title, description }) => {
     <>
       {/* <!-- Blog Item --> */}
       <div className="col-md-4 blog-item-wrapper">
-        <div className="blog-item">
+        <div className="blog-item" style={{ minHeight: '480px' }}>
           <div className="blog-img">
             {/* change to Link component for routing */}
             <Link to="/outsourcing">
