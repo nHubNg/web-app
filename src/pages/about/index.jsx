@@ -161,7 +161,7 @@ const About = () => {
                   heading="Sophie Ameh"
                   description="Master Trainer: Frontend"
                   twitter="https://twitter.com/Sophie_Ameh"
-                  instagram="https://www.instagram.com/__sophiiee.___/"
+                  instagram="https://www.instagram.com/__sofie.ameh/"
                   linkedIn="https://www.linkedin.com/in/sophia-ameh-67a849248/"
                 />
               </div>
@@ -207,7 +207,7 @@ const About = () => {
                   description="Graphics Designer / Frontend"
                   twitter="https://twitter.com/Le_Sieger?s=08"
                   instagram="https://www.instagram.com/invites/contact/?i=1km1e8mbdv1z5&utm_content=mwitzmu"
-                  linkedIn=""
+                  linkedIn="https://www.linkedin.com/in/victor-umeh-146b19247"
                 />
               </div>
 

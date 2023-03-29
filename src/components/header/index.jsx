@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = (props) => {
   const navLinkStyle = ({ isActive }) => {
     return {
-      fontWeight: isActive ? 'bold' : 'light',
+      fontWeight: isActive ? 'bolder' : 'light',
     };
   };
 
@@ -89,7 +89,7 @@ const Header = (props) => {
                 </li>
 
                 <a className="btn btn-outline-primary btn-lg" href="https://sketchfab.com/3d-models/nhub-nigeria-a9c20eb02674490c8c44a0aa1b748a39" target='_blank' rel='noreferrer'>
-                  TAKE A TOUR ROUND THE HUB
+                  TAKE A TOUR
                 </a>
               </ul>
             </div>

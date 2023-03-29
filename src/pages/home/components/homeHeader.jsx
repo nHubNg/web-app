@@ -4,7 +4,7 @@ import obj_triangle from '../../../img/obj_triangle.png';
 const HomeHeader = () => {
   const navLinkStyle = ({ isActive }) => {
     return {
-      fontWeight: isActive ? 'bold' : 'light',
+      fontWeight: isActive ? 'bolder' : 'light',
     };
   };
 
@@ -93,7 +93,7 @@ const HomeHeader = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  TAKE A TOUR ROUND THE HUB
+                  TAKE A TOUR
                 </a>
               </ul>
             </div>

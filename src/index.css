@@ -1138,3 +1138,8 @@ section {
   justify-content: space-between;
   flex-direction: column;
 }
+
+.nav-item{
+  margin: 0px 10px 0px 10px;
+  font-weight: 400;
+}
