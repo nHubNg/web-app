@@ -91,6 +91,20 @@ const Program = () => {
         />
       </div>
 
+      <div className="card-2">
+        <Card
+          image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680691577/nhubNigeria/microsoft_wxctt4.jpg"
+          title="MICROSOFT
+          OFFICE TOOLS
+          TAILORED TRAININGS"
+          paragraph="Tailored trainings for Microsoft Office Tools
+          can help employees to become proficient
+          in using these applications, which can lead
+          to improved productivity, better
+          collaboration, and better communication."
+        />
+      </div>
+
       <section id="blog" className="bg-grey">
         <div className="container">
           <div className="section-content">
@@ -110,7 +124,17 @@ const Program = () => {
                   <li>Fellowship Program</li>
                   <li>Industrial Training Fund</li>
                   <li>MIcrosoft Office Suit Tailored Training</li>
-                  <li>The Next Economy (2016 - 2020) : An incubation program by the Dutch ministry of foreign affairs in partnership with nHub and other implementing partners.  Divided into two trajectories of entrepreneurship for young people interested in starting a business model and Employability to equip young graduate with the future of work skills and employable. We were able to raise over twenty million naira in equity free funding using the concept of crowdfunding as an alternative to business financing.</li>
+                  <li>
+                    The Next Economy (2016 - 2020) : An incubation program by
+                    the Dutch ministry of foreign affairs in partnership with
+                    nHub and other implementing partners. Divided into two
+                    trajectories of entrepreneurship for young people interested
+                    in starting a business model and Employability to equip
+                    young graduate with the future of work skills and
+                    employable. We were able to raise over twenty million naira
+                    in equity free funding using the concept of crowdfunding as
+                    an alternative to business financing.
+                  </li>
                 </ul>
               </div>
             </div>

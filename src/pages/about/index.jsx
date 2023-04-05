@@ -145,136 +145,7 @@ const About = () => {
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
 
-            <section id="skills" className="bg-white">
-              <div className="about-staff">
-                <h3>MEET OUR MASTER TRAINERS</h3>
-              </div>
-            </section>
-            <div className="row text-center">
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/sophie_m98d8d.jpg"
-                  heading="Sophie Ameh"
-                  description="Master Trainer: Frontend"
-                  twitter="https://twitter.com/Sophie_Ameh"
-                  instagram="https://www.instagram.com/__sofie.ameh/"
-                  linkedIn="https://www.linkedin.com/in/sophia-ameh-67a849248/"
-                />
-              </div>
 
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/fon_ubjdsb.jpg"
-                  heading="Fon Desmond"
-                  description="Master Trainer: IT"
-                  twitter="https://twitter.com/DezmondFon"
-                  instagram="https://www.instagram.com/dezmond_fon/"
-                  linkedIn="https://www.linkedin.com/in/desmond-fon/"
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/chris_x7lolu.jpg"
-                  heading="Christopher Pam"
-                  description="Master Trainer: Backend"
-                  twitter="https://twitter.com/krispamB"
-                  instagram="https://www.instagram.com/krispam_b/"
-                  linkedIn=""
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680023420/nhubNigeria/victor_elhxfr.jpg"
-                  heading="Umeokoli Victor Onyeka"
-                  description="Graphics Designer / Frontend"
-                  twitter="https://twitter.com/Le_Sieger?s=08"
-                  instagram="https://www.instagram.com/invites/contact/?i=1km1e8mbdv1z5&utm_content=mwitzmu"
-                  linkedIn="https://www.linkedin.com/in/victor-umeh-146b19247"
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678975344/nhubNigeria/nkem_mflr6e.jpg"
-                  heading="Nkemdilim Okeke"
-                  description="Master Trainer"
-                  twitter=""
-                  instagram="https://www.instagram.com/nkemm._/"
-                  linkedIn=""
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679577617/nhubNigeria/6afc07b5-c285-489f-9b5e-8d7a632daf60_n6dmhh.jpg"
-                  heading="Agwom Akare"
-                  description="Master Trainer"
-                  twitter="https://twitter.com/AkareAgwom"
-                  instagram="https://www.instagram.com/beebela03/"
-                  linkedIn=""
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
-                  heading="Efezino Victory"
-                  description="Master Trainer"
-                  twitter="https://twitter.com/EfezinoVictory"
-                  instagram="https://www.instagram.com/mosesefezinovictory/"
-                  linkedIn="https://www.linkedin.com/in/efezino-victory-moses-066756261/"
-                />
-              </div>
-
-              <div
-                className="col-md-4 col-sm-6 mt-4"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679516958/nhubNigeria/image1_qlstcl.jpg"
-                  heading="Ifeanyi Chioma "
-                  description="Master Trainer"
-                  twitter="https://twitter.com/Ifeanyichioma47"
-                  instagram="https://www.instagram.com/chioma.ifeanyi.927/"
-                  linkedIn=""
-                />
-              </div>
-
-              {/* <!-- /.col-md-4 col-sm-6  --> */}
-
-              {/* <!-- /.col-md-4 col-sm-6  --> */}
-            </div>
 
             <section id="skills" className="bg-white">
               <div className="about-staff">
@@ -427,6 +298,137 @@ const About = () => {
                   linkedIn="https://www.linkedin.com/in/fyaklek-charles-b62105210/"
                 />
               </div>
+
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
+            </div>
+
+            <section id="skills" className="bg-white">
+              <div className="about-staff">
+                <h3>MEET OUR MASTER TRAINERS</h3>
+              </div>
+            </section>
+            <div className="row text-center">
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/sophie_m98d8d.jpg"
+                  heading="Sophie Ameh"
+                  description="Master Trainer: Frontend"
+                  twitter="https://twitter.com/Sophie_Ameh"
+                  instagram="https://www.instagram.com/__sofie.ameh/"
+                  linkedIn="https://www.linkedin.com/in/sophia-ameh-67a849248/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/fon_ubjdsb.jpg"
+                  heading="Fon Desmond"
+                  description="Master Trainer: IT / Frontend"
+                  twitter="https://twitter.com/DezmondFon"
+                  instagram="https://www.instagram.com/dezmond_fon/"
+                  linkedIn="https://www.linkedin.com/in/desmond-fon/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680021620/nhubNigeria/chris_x7lolu.jpg"
+                  heading="Christopher Pam"
+                  description="Master Trainer: Backend"
+                  twitter="https://twitter.com/krispamB"
+                  instagram="https://www.instagram.com/krispam_b/"
+                  linkedIn=""
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1680023420/nhubNigeria/victor_elhxfr.jpg"
+                  heading="Umeokoli Victor Onyeka"
+                  description="Graphics Designer / Frontend"
+                  twitter="https://twitter.com/Le_Sieger?s=08"
+                  instagram="https://www.instagram.com/invites/contact/?i=1km1e8mbdv1z5&utm_content=mwitzmu"
+                  linkedIn="https://www.linkedin.com/in/victor-umeh-146b19247"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678975344/nhubNigeria/nkem_mflr6e.jpg"
+                  heading="Nkemdilim Okeke"
+                  description="Master Trainer"
+                  twitter=""
+                  instagram="https://www.instagram.com/nkemm._/"
+                  linkedIn=""
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679577617/nhubNigeria/6afc07b5-c285-489f-9b5e-8d7a632daf60_n6dmhh.jpg"
+                  heading="Agwom Akare"
+                  description="Master Trainer"
+                  twitter="https://twitter.com/AkareAgwom"
+                  instagram="https://www.instagram.com/beebela03/"
+                  linkedIn=""
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
+                  heading="Efezino Victory"
+                  description="Master Trainer"
+                  twitter="https://twitter.com/EfezinoVictory"
+                  instagram="https://www.instagram.com/mosesefezinovictory/"
+                  linkedIn="https://www.linkedin.com/in/efezino-victory-moses-066756261/"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1679516958/nhubNigeria/image1_qlstcl.jpg"
+                  heading="Ifeanyi Chioma "
+                  description="Master Trainer"
+                  twitter="https://twitter.com/Ifeanyichioma47"
+                  instagram="https://www.instagram.com/chioma.ifeanyi.927/"
+                  linkedIn=""
+                />
+              </div>
+
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
 
               {/* <!-- /.col-md-4 col-sm-6  --> */}
             </div>
