@@ -31,6 +31,14 @@ const CoWorkingSpace = () => {
           <tbody>
             <tr>
               <td>Co-Working Space</td>
+              <td>1,000</td>
+              <td>5,000</td>
+              <td>20,000</td>
+              <td>60,000</td>
+              <td>120,000</td>
+            </tr>
+            <tr>
+              <td>Dedicated Desk</td>
               <td>2,000</td>
               <td>10,000</td>
               <td>40,000</td>
@@ -38,20 +46,12 @@ const CoWorkingSpace = () => {
               <td>480,000</td>
             </tr>
             <tr>
-              <td>Dedicated Desk</td>
+              <td>Private Offices</td>
               <td>5,000</td>
               <td>25,000</td>
               <td>100,000</td>
               <td>300,000</td>
               <td>1,000,000</td>
-            </tr>
-            <tr>
-              <td>Private Offices</td>
-              <td>10,000</td>
-              <td>50,000</td>
-              <td>200,000</td>
-              <td>600,000</td>
-              <td>2,400,000</td>
             </tr>
           </tbody>
         </Table>
