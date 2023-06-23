@@ -31,16 +31,16 @@ const CoWorkingSpace = () => {
           <tbody>
             <tr>
               <td>Co-Working Space</td>
-              <td>1,000</td>
-              <td>5,000</td>
+              <td>2,200</td>
+              <td>6,000</td>
               <td>20,000</td>
               <td>60,000</td>
               <td>120,000</td>
             </tr>
             <tr>
               <td>Dedicated Desk</td>
-              <td>2,000</td>
-              <td>10,000</td>
+              <td>3,200</td>
+              <td>12,000</td>
               <td>40,000</td>
               <td>120,000</td>
               <td>480,000</td>
