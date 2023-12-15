@@ -254,7 +254,7 @@ const About = () => {
                   linkedIn="https://www.linkedin.com/in/jeremiah-faluyi-009b85206/"
                 />
               </div>
-              <div
+              {/* <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
@@ -267,7 +267,7 @@ const About = () => {
                   instagram="https://www.instagram.com/ade_effective/"
                   linkedIn="https://www.linkedin.com/in/olugunnaadeife/"
                 />
-              </div>
+              </div>*/}
 
               <div
                 className="col-md-4 col-sm-6 mt-4"
