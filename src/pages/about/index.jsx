@@ -127,24 +127,35 @@ const About = () => {
                 />
               </div>
 
-              {/* <div
+              <div
                 className="col-md-4 col-sm-6 mt-4"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <Card
-                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1678984019/nhubNigeria/vicky_czj1hp.jpg"
-                  heading="Eyinmosan Sholaye"
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1702988798/nhubNigeria/ceesay_hh3a2h.jpg"
+                  heading="Salamatu Ceesay"
+                  description="Admin"
+                  twitter=""
+                  instagram=""
+                  linkedIn="https://www.linkedin.com/in/salamatu-ceesay-60bb7a21b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                />
+              </div>
+
+              <div
+                className="col-md-4 col-sm-6 mt-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <Card
+                  image="https://res.cloudinary.com/nhubnacademy/image/upload/v1702989306/nhubNigeria/sholaye_vq86dj.png"
+                  heading="Oritsesholaye Eyinmosan"
                   description="Community Manager"
                   twitter="https://twitter.com/NoverPrime"
                   instagram="https://www.instagram.com/noverprime/"
                   linkedIn="https://www.linkedin.com/in/eyinmosan-sholaye-080732172/"
                 />
-              </div> */}
-
-              {/* <!-- /.col-md-4 col-sm-6  --> */}
-            </div>
-
+              </div>
 
 
             <section id="skills" className="bg-white">
