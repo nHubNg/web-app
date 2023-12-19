@@ -156,7 +156,9 @@ const About = () => {
                   linkedIn="https://www.linkedin.com/in/eyinmosan-sholaye-080732172/"
                 />
               </div>
-           </section>
+
+              {/* <!-- /.col-md-4 col-sm-6  --> */}
+           </div>
 
             <section id="skills" className="bg-white">
               <div className="about-staff">
