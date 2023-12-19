@@ -156,7 +156,7 @@ const About = () => {
                   linkedIn="https://www.linkedin.com/in/eyinmosan-sholaye-080732172/"
                 />
               </div>
-
+           </section>
 
             <section id="skills" className="bg-white">
               <div className="about-staff">
