@@ -68,20 +68,20 @@ const CoWorkingSpace = () => {
           <tbody>
             <tr>
               <td>Executive Meeting Room</td>
-              <td>5,000</td>
-              <td>40,000</td>
+              <td>6,000</td>
+              <td>48,000</td>
               <td>20</td>
             </tr>
             <tr>
               <td>Conference Hall 1</td>
-              <td>6,000</td>
-              <td>48,000</td>
+              <td>8,000</td>
+              <td>64,000</td>
               <td>40</td>
             </tr>
             <tr>
               <td>Conference Hall 2</td>
-              <td>6,500</td>
-              <td>52,000</td>
+              <td>8,500</td>
+              <td>68,000</td>
               <td>50</td>
             </tr>
           </tbody>
