@@ -31,7 +31,7 @@ const FeatureSection = () => {
                 </p>
                 <a
                   className="btn btn-outline-primary btn-lg"
-                  href="https://nhubinternship.onrender.com/"
+                  href="https://nhubfoundation.org/internship"
                   target="_blank"
                   rel="noreferrer"
                 >

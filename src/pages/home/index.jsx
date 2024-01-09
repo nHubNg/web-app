@@ -16,6 +16,40 @@ const Home = () => {
   return (
     <div>
       <HomeHeader />
+      <section
+        id="cta"
+        className="bg-fixed overlay"
+        style={{
+          backgroundImage: `url(https://res.cloudinary.com/nhubnacademy/image/upload/q_auto:eco/v1678915471/nhubNigeria/internshipp_lf5myn.jpg)`,
+          // marginTop: '15px',
+        }}
+      >
+        <div className="container">
+          <div className="section-content" data-aos="fade-up">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h2 className="mb-2">nhub Startup School 2024 – Ignite Your Startup Journey!</h2>
+                <p>Embark on a transformative 8-week startup incubation journey with nhub Startup School, starting January 24, 2024. 📆</p>
+                <p>Registration Opens: January 8, 2024 <br />
+                  Program Commences: January 24, 2024 <br />
+                  👩‍💼👨‍💼 For Founders and Co-Founders:
+                  Whether you&apos;re at the inception stage or scaling up, nhub Startup School provides tailored guidance to elevate your entrepreneurial ventures.</p>
+                <p>🖱️ Register Early, limited spots available
+                  Secure your spot and unlock the tools for startup success. Registration begins on January 8, 2024.</p>
+                <a
+                  className="btn btn-outline-primary btn-lg"
+                  href="https://forms.gle/gSwQmBUKBgs9gfCX9"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textTransform: 'none' }}
+                >
+                  REGISTER HERE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <Section />
       <section
         id="section-featurettes"
