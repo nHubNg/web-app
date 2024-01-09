@@ -31,8 +31,7 @@ const Home = () => {
                 <h2 className="mb-2">nhub Startup School 2024 – Ignite Your Startup Journey!</h2>
                 <p>Embark on a transformative 8-week startup incubation journey with nhub Startup School, starting January 24, 2024. 📆</p>
                 <p>Registration Opens: January 8, 2024 <br />
-                  Program Commences: January 24, 2024 <br />
-                  👩‍💼👨‍💼 For Founders and Co-Founders:
+                 👩‍💼👨‍💼 For Founders and Co-Founders:
                   Whether you&apos;re at the inception stage or scaling up, nhub Startup School provides tailored guidance to elevate your entrepreneurial ventures.</p>
                 <p>🖱️ Register Early, limited spots available
                   Secure your spot and unlock the tools for startup success. Registration begins on January 8, 2024.</p>
