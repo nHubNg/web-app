@@ -74,13 +74,13 @@ const CoWorkingSpace = () => {
             </tr>
             <tr>
               <td>Conference Hall 1</td>
-              <td>8,000</td>
+              <td>10,000</td>
               <td>64,000</td>
               <td>40</td>
             </tr>
             <tr>
               <td>Conference Hall 2</td>
-              <td>8,500</td>
+              <td>10,500</td>
               <td>68,000</td>
               <td>50</td>
             </tr>
